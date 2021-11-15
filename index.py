@@ -29,7 +29,13 @@ for author in books['author_books']:
         year = ''
         if books['list'][str(book)]['italian_publish_year'] != '':
             year = ', ' + books['list'][str(book)]['italian_publish_year']
-        books_list = '<li><a href="' + books['list'][str(book)]['link'] + '" target="_blank">' + books['list'][str(book)]['title'] + year + '</a></li>'
+        isbn = ''
+        if books['list'][str(book)]['isbn'] != '':
+            isbn = ', ' + books['list'][str(book)]['isbn']
+        original_title = ''
+        if books['list'][str(book)]['original_title'] != '':
+            original_title = ', ' + books['list'][str(book)]['original_title']
+        books_list += '<li><a href="' + books['list'][str(book)]['link'] + '" target="_blank">' + books['list'][str(book)]['title'] + year + isbn + original_title + '</a></li>'
     content = content.replace('{list}', books_list)
 
 html = html.replace('{content}', content)

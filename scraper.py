@@ -28,7 +28,7 @@ print('Totale articoli da elaborare: ' + str(last_article_id))
 print('Ultimo articolo elaborato: ' + str(start_from))
 
 # Per calcolare la posizione dell'autore
-generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico']
+generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico']
 
 for article in range(start_from + 1, int(last_article_id)):
     URL = f'https://www.fantascienza.com/' + str(article)
@@ -108,6 +108,7 @@ for article in range(start_from + 1, int(last_article_id)):
             continue
 
         author = author.replace('AA. VV.','AA.VV.')
+        author = author.replace('aa.vv.','AA.VV.')
 
         print("%d scheda trovata!" % article)
 
