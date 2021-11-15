@@ -32,7 +32,11 @@ generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 
 
 for article in range(start_from + 1, int(last_article_id)):
     URL = f'https://www.fantascienza.com/' + str(article)
-    data = requests.get(URL)
+    try:
+        data = requests.get(URL)
+    except Exception as e:
+        print(e + ':' + URL)
+        continue
     soup = BeautifulSoup(data.content, 'html.parser')
     blog_review = soup.select_one('.blog-style .column4')
 
@@ -134,8 +138,8 @@ for article in range(start_from + 1, int(last_article_id)):
             books['author_books'][author] = [article]
 
         books['author_books'] = dict(sorted(books['author_books'].items()))
+        with open(path, 'w') as outfile:
+            json.dump(books, outfile, indent=4)
+            outfile.close()
 
-with open(path, 'w') as outfile:
-    json.dump(books, outfile, indent=4)
-    outfile.close()
 print('Finito, trovati ' + str(len(books['list'])))
