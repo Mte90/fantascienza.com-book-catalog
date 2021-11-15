@@ -101,6 +101,9 @@ for article in range(start_from + 1, int(last_article_id)):
         if isbn == '1':
             isbn = ''
 
+        if ',' in italian_publish_year and soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)') != None:
+            italian_publish_year = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)').text
+
         if not italian_publish_year.isdigit() or italian_publish_year == '1':
             italian_publish_year = ''
 
