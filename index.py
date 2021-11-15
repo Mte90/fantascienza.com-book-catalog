@@ -14,7 +14,7 @@ else:
         books = json.load(outfile)
         outfile.close()
 
-with open('./index.html', 'r') as reader:
+with open('./skeleton.html', 'r') as reader:
      html = reader.read()
 
 html = html.replace('{data}', str(date.today()))
@@ -41,6 +41,6 @@ for author in books['author_books']:
 html = html.replace('{content}', content)
 html = html.replace('{totale}', str(len(books['list'])))
 
-save = open('./catalog.html', 'w')
+save = open('./index.html', 'w')
 save.write(html)
 save.close()

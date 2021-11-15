@@ -1295,6 +1295,278 @@
             "italian_publish_year": "2002",
             "isbn": "",
             "link": "https://www.fantascienza.com/2564/ingannevole-e-il-cuore-piu-di-ogni-cosa"
+        },
+        "2565": {
+            "title": "Il Signore delle Mosche",
+            "author": "William Golding",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2565/il-signore-delle-mosche"
+        },
+        "2566": {
+            "title": "Nebbia sul ponte di Tolbiac",
+            "author": "L\u00e9o Malet",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2566/nebbia-sul-ponte-di-tolbiac"
+        },
+        "2617": {
+            "title": "Davy l'Eretico",
+            "author": "Edgar Pangborn",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2617/davy-l-eretico"
+        },
+        "2618": {
+            "title": "Il respiro delle montagne",
+            "author": "Ornella Lepre",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2618/il-respiro-delle-montagne"
+        },
+        "2619": {
+            "title": "Lo Hobbit o la riconquista del tesoro",
+            "author": "J.R.R. Tolkien",
+            "original_title": "The Hobbit",
+            "italian_publish_year": "1937",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2619/lo-hobbit-o-la-riconquista-del-tesoro"
+        },
+        "2620": {
+            "title": "Le avventure di Tom Bombadil",
+            "author": "J.R.R. Tolkien",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2620/le-avventure-di-tom-bombadil"
+        },
+        "2621": {
+            "title": "Il Cacciatore di draghi ovvero Giles l'Agricoltore di Ham",
+            "author": "J.R.R. Tolkien",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2621/il-cacciatore-di-draghi-ovvero-giles-l-agricoltore-di-ham"
+        },
+        "2622": {
+            "title": "L' uomo dei due mondi",
+            "author": "Raymond F. Jones",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2622/l-uomo-dei-due-mondi"
+        },
+        "2623": {
+            "title": "Furia",
+            "author": "Salman Rushdie",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2623/furia"
+        },
+        "2624": {
+            "title": "Beowulf",
+            "author": "Seamus Heaney",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2624/beowulf"
+        },
+        "2657": {
+            "title": "Black Flag",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2657/black-flag"
+        },
+        "2658": {
+            "title": "I biplani di D'Annunzio",
+            "author": "Luca Masali",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2658/i-biplani-di-d-annunzio"
+        },
+        "2659": {
+            "title": "Nessun dove",
+            "author": "Neil Gaiman",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2659/nessun-dove"
+        },
+        "2660": {
+            "title": "Generazione Proteus",
+            "author": "Dean Koontz",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2660/generazione-proteus"
+        },
+        "2671": {
+            "title": "Radio aliena Hasselblad",
+            "author": "Franco Ricciardiello",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2671/radio-aliena-hasselblad"
+        },
+        "2695": {
+            "title": "Eva",
+            "author": "Nicoletta Vallorani",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2695/eva"
+        },
+        "2696": {
+            "title": "The Mothman Prophecies",
+            "author": "John A. Keel",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2696/the-mothman-prophecies"
+        },
+        "2697": {
+            "title": "Stella meravigliosa",
+            "author": "Yukio Mishima",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2697/stella-meravigliosa"
+        },
+        "2698": {
+            "title": "Il Fante di picche",
+            "author": "B. Akunin",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2698/il-fante-di-picche"
+        },
+        "2699": {
+            "title": "Organi",
+            "author": "Alda Teodorani",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2699/organi"
+        },
+        "2727": {
+            "title": "Cartografia dell'inferno 50 anni di fantascienza in Italia 1952-2002",
+            "author": "Gianfranco de Turris",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2727/cartografia-dell-inferno-50-anni-di-fantascienza-in-italia-1952-2002"
+        },
+        "2728": {
+            "title": "3012 L'anno del Profeta",
+            "author": "Sebastiano Vassalli",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2728/3012-l-anno-del-profeta"
+        },
+        "2729": {
+            "title": "L'universo Cyber 3",
+            "author": "Piergiorgio Nicolazzini",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2729/l-universo-cyber-3"
+        },
+        "2730": {
+            "title": " Ai confini della realt\u00e0 - Tutti i racconti",
+            "author": "Rod Serling",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2730/ai-confini-della-realta-tutti-i-racconti"
+        },
+        "2731": {
+            "title": "The body artist",
+            "author": "Don DeLillo",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2731/the-body-artist"
+        },
+        "2732": {
+            "title": "Cherudek",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2732/cherudek"
+        },
+        "2749": {
+            "title": "La caverna",
+            "author": "Jos\u00e9 Saramago",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2749/la-caverna"
+        },
+        "2750": {
+            "title": "Amico della terra",
+            "author": "T. Coraghessan Boyle",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2750/amico-della-terra"
+        },
+        "2896": {
+            "title": "Falange Armata",
+            "author": "Carlo Lucarelli",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2896/falange-armata"
+        },
+        "2897": {
+            "title": "Lo scrittore fantasma",
+            "author": "Philip Roth",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2897/lo-scrittore-fantasma"
+        },
+        "2898": {
+            "title": "Oggetto quasi",
+            "author": "Jos\u00e9 Saramago",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2898/oggetto-quasi"
+        },
+        "2899": {
+            "title": "Il mistero di lord Listerdale e altre storie",
+            "author": "Agatha Christie",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2899/il-mistero-di-lord-listerdale-e-altre-storie"
+        },
+        "2900": {
+            "title": "Aigam Magia",
+            "author": "Autori Vari",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2900/aigam-magia"
+        },
+        "2938": {
+            "title": "Star Trek - The Next Generation - Stagione 3",
+            "author": "Paramount Home Entertainment",
+            "original_title": "USA",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2938/star-trek-the-next-generation-stagione-3"
         }
     },
     "author_books": {
@@ -1314,11 +1586,17 @@
         "Adalberto Cersosimo": [
             1055
         ],
+        "Agatha Christie": [
+            2899
+        ],
         "Alan D. Altieri": [
             2261
         ],
         "Alan Gordon": [
             1664
+        ],
+        "Alda Teodorani": [
+            2699
         ],
         "Alessandro Vietti": [
             1025
@@ -1332,6 +1610,12 @@
         ],
         "Anita Shreve": [
             1891
+        ],
+        "Autori Vari": [
+            2900
+        ],
+        "B. Akunin": [
+            2698
         ],
         "B. Akunin (Grigori Tchkhartichvil)": [
             1680,
@@ -1351,6 +1635,9 @@
         "C.J. Cherryh": [
             1723
         ],
+        "Carlo Lucarelli": [
+            2896
+        ],
         "Carlos Eduardo Feiling": [
             1498
         ],
@@ -1366,6 +1653,9 @@
         "David Brin": [
             1044
         ],
+        "Dean Koontz": [
+            2660
+        ],
         "Dean Wesley Smith": [
             1591
         ],
@@ -1376,11 +1666,17 @@
         "Domenic Stansberry": [
             1921
         ],
+        "Don DeLillo": [
+            2731
+        ],
         "Donato Altomare": [
             1924
         ],
         "Dorothy Porter": [
             2424
+        ],
+        "Edgar Pangborn": [
+            2617
         ],
         "Edmund Cooper": [
             2561
@@ -1410,11 +1706,17 @@
         "Franco Forte e Luigi Pach\u00ec": [
             2557
         ],
+        "Franco Ricciardiello": [
+            2671
+        ],
         "Friedrich D\u00fcrrenmatt": [
             1734
         ],
         "Gene Brewer": [
             2356
+        ],
+        "Gianfranco de Turris": [
+            2727
         ],
         "Gianni Padoan": [
             1922
@@ -1466,7 +1768,10 @@
             2244
         ],
         "J.R.R. Tolkien": [
-            2417
+            2417,
+            2619,
+            2620,
+            2621
         ],
         "J.T. LeRoy": [
             2564
@@ -1497,6 +1802,9 @@
         "Joe R.Lansdale": [
             2349
         ],
+        "John A. Keel": [
+            2696
+        ],
         "John Marco": [
             1073
         ],
@@ -1509,6 +1817,10 @@
         ],
         "Joseph H. Rosny": [
             2508
+        ],
+        "Jos\u00e9 Saramago": [
+            2749,
+            2898
         ],
         "K. W. Jeter": [
             1329
@@ -1538,11 +1850,15 @@
             1509,
             1517
         ],
+        "Luca Masali": [
+            2658
+        ],
         "Lucio Trevisan": [
             2348
         ],
         "L\u00e9o Malet": [
-            1923
+            1923,
+            2566
         ],
         "Marco Vallarino": [
             1051
@@ -1577,7 +1893,8 @@
             1725
         ],
         "Neil Gaiman": [
-            1623
+            1623,
+            2659
         ],
         "Neil Gaiman, Charles Vess": [
             2263
@@ -1585,14 +1902,23 @@
         "Neil Gaiman, Yoshitaka Amano": [
             2262
         ],
+        "Nicoletta Vallorani": [
+            2695
+        ],
         "Noah Hawley": [
             2299
+        ],
+        "Ornella Lepre": [
+            2618
         ],
         "P. K. Dick": [
             1419
         ],
         "P. K. Dick e R. Zelazny": [
             1647
+        ],
+        "Paramount Home Entertainment": [
+            2938
         ],
         "Patrick  S\u00fcskind": [
             1071
@@ -1617,11 +1943,20 @@
             2298,
             2353
         ],
+        "Philip Roth": [
+            2897
+        ],
+        "Piergiorgio Nicolazzini": [
+            2729
+        ],
         "Pierre Boulle": [
             1519
         ],
         "Ray Bradbury": [
             2247
+        ],
+        "Raymond F. Jones": [
+            2622
         ],
         "Renato Pestriniero": [
             2559
@@ -1648,7 +1983,8 @@
             1020
         ],
         "Rod Serling": [
-            1575
+            1575,
+            2730
         ],
         "Roland C. Wagner": [
             1052
@@ -1658,6 +1994,15 @@
         ],
         "S.D. Perry": [
             2079
+        ],
+        "Salman Rushdie": [
+            2623
+        ],
+        "Seamus Heaney": [
+            2624
+        ],
+        "Sebastiano Vassalli": [
+            2728
         ],
         "Serge Lehman": [
             1077,
@@ -1677,6 +2022,9 @@
         ],
         "Stephen King & Peter Straub": [
             2352
+        ],
+        "T. Coraghessan Boyle": [
+            2750
         ],
         "Teresa Regna": [
             2246
@@ -1700,7 +2048,9 @@
             2420
         ],
         "Valerio Evangelisti": [
-            1238
+            1238,
+            2657,
+            2732
         ],
         "Vincenzo Tagliasco": [
             1364
@@ -1708,11 +2058,17 @@
         "Walter J. Williams": [
             1063
         ],
+        "William Golding": [
+            2565
+        ],
         "William T. Vollmann": [
             1678
         ],
         "Wu Ming 5": [
             2350
+        ],
+        "Yukio Mishima": [
+            2697
         ]
     }
 }
