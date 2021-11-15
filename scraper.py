@@ -67,6 +67,9 @@ for article in range(start_from + 1, int(last_article_id)):
             if ',' in soup.select_one('.blog-style .column4:nth-of-type(2) p:nth-of-type(1)').text:
                 original_title = str(soup.select_one('.blog-style .column4:nth-of-type(2) p:nth-of-type(1)').text).split(',')[0]
 
+            if original_title == '' and soup.select_one('.blog-style .column4:nth-of-type(2) p span.titolo_originale') != None:
+                original_title = soup.select_one('.blog-style .column4:nth-of-type(2) p span.titolo_originale').text
+
             if soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(7)') != None:
                 italian_publish_year = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(4)').text
                 isbn = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(5)').text

@@ -1567,6 +1567,126 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/2938/star-trek-the-next-generation-stagione-3"
+        },
+        "3018": {
+            "title": "Il salmone del dubbio",
+            "author": "Douglas Adams",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3018/il-salmone-del-dubbio"
+        },
+        "3019": {
+            "title": "Rapporto di minoranza e altri racconti",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3019/rapporto-di-minoranza-e-altri-racconti"
+        },
+        "3020": {
+            "title": "Mater Terribilis",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3020/mater-terribilis"
+        },
+        "3021": {
+            "title": "Concerto per archi e canguro",
+            "author": "Jonathan Lethem",
+            "original_title": "Gun",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3021/concerto-per-archi-e-canguro"
+        },
+        "3022": {
+            "title": "In cerca",
+            "author": "Geoff Dyer",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3022/in-cerca"
+        },
+        "3197": {
+            "title": "L'Ombra di Ender",
+            "author": "Orson Scoot Card",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3197/l-ombra-di-ender"
+        },
+        "3198": {
+            "title": "Gli ultimi giorni",
+            "author": "Andrew Masterson",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3198/gli-ultimi-giorni"
+        },
+        "3199": {
+            "title": "La Crisi della Realt\u00e0 Volume 1: Emergenza!",
+            "author": "Peter F. Hamilton",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3199/la-crisi-della-realta-volume-1-emergenza"
+        },
+        "3200": {
+            "title": "Ultima uscita",
+            "author": "Emanuele Delmiglio",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3200/ultima-uscita"
+        },
+        "3201": {
+            "title": "Komarr",
+            "author": "Lois McMaster Bujold",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3201/komarr"
+        },
+        "3245": {
+            "title": "Spiderman - Scontro Finale",
+            "author": "Buena Vista Home Entertainment - vendita",
+            "original_title": "USA",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3245/spiderman-scontro-finale"
+        },
+        "3260": {
+            "title": "Le radici del male",
+            "author": "Alda Teodorani",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3260/le-radici-del-male"
+        },
+        "3278": {
+            "title": "La Leggenda di Otori",
+            "author": "Lian Hearn",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3278/la-leggenda-di-otori"
+        },
+        "3285": {
+            "title": "Harry Potter e il prigioniero di Azkaban",
+            "author": "Joanne K. Rowling",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3285/harry-potter-e-il-prigioniero-di-azkaban"
+        },
+        "3286": {
+            "title": "Le Due Torri - Il Signore degli Anelli Il racconto del film",
+            "author": "Cinema",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3286/le-due-torri-il-signore-degli-anelli-il-racconto-del-film"
         }
     },
     "author_books": {
@@ -1596,7 +1716,8 @@
             1664
         ],
         "Alda Teodorani": [
-            2699
+            2699,
+            3260
         ],
         "Alessandro Vietti": [
             1025
@@ -1607,6 +1728,9 @@
         "Andreas Eschbach": [
             1236,
             2507
+        ],
+        "Andrew Masterson": [
+            3198
         ],
         "Anita Shreve": [
             1891
@@ -1632,6 +1756,9 @@
             1070,
             1081
         ],
+        "Buena Vista Home Entertainment - vendita": [
+            3245
+        ],
         "C.J. Cherryh": [
             1723
         ],
@@ -1640,6 +1767,9 @@
         ],
         "Carlos Eduardo Feiling": [
             1498
+        ],
+        "Cinema": [
+            3286
         ],
         "Claude Yelnick": [
             1072
@@ -1675,11 +1805,17 @@
         "Dorothy Porter": [
             2424
         ],
+        "Douglas Adams": [
+            3018
+        ],
         "Edgar Pangborn": [
             2617
         ],
         "Edmund Cooper": [
             2561
+        ],
+        "Emanuele Delmiglio": [
+            3200
         ],
         "Eraldo Baldini": [
             1420,
@@ -1714,6 +1850,9 @@
         ],
         "Gene Brewer": [
             2356
+        ],
+        "Geoff Dyer": [
+            3022
         ],
         "Gianfranco de Turris": [
             2727
@@ -1797,7 +1936,8 @@
             2078
         ],
         "Joanne K. Rowling": [
-            2093
+            2093,
+            3285
         ],
         "Joe R.Lansdale": [
             2349
@@ -1813,7 +1953,8 @@
         ],
         "Jonathan Lethem": [
             1411,
-            1449
+            1449,
+            3021
         ],
         "Joseph H. Rosny": [
             2508
@@ -1849,6 +1990,12 @@
         "Lester Del Rey": [
             1509,
             1517
+        ],
+        "Lian Hearn": [
+            3278
+        ],
+        "Lois McMaster Bujold": [
+            3201
         ],
         "Luca Masali": [
             2658
@@ -1911,6 +2058,9 @@
         "Ornella Lepre": [
             2618
         ],
+        "Orson Scoot Card": [
+            3197
+        ],
         "P. K. Dick": [
             1419
         ],
@@ -1922,6 +2072,9 @@
         ],
         "Patrick  S\u00fcskind": [
             1071
+        ],
+        "Peter F. Hamilton": [
+            3199
         ],
         "Phil Patton": [
             1886
@@ -1941,7 +2094,8 @@
             2296,
             2297,
             2298,
-            2353
+            2353,
+            3019
         ],
         "Philip Roth": [
             2897
@@ -2050,7 +2204,8 @@
         "Valerio Evangelisti": [
             1238,
             2657,
-            2732
+            2732,
+            3020
         ],
         "Vincenzo Tagliasco": [
             1364
