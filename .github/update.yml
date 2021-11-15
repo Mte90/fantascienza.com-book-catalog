@@ -1,0 +1,24 @@
+name: Update weekly
+on:
+  schedule:
+    - cron: 0 13 * * 1
+
+jobs:
+  deploy:
+    name: "Update"
+    runs-on: "ubuntu-latest"
+    
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v1
+      - name: Build
+        env:
+          MTE90_TOKEN: ${{ secrets.MTE90_TOKEN }}
+        run: ./scraper.py && ./index.py
+    - name: Commit and push if DB changed
+      run: |-
+        git diff
+        git config --global user.email "catalog-bot@example.com"
+        git config --global user.name "catalog-bot"
+        git diff --quiet || (git add ./*.json ./catalog.html && git commit -m "Updated DB")
+        git push

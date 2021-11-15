@@ -4,7 +4,7 @@ import os
 import json
 from datetime import date
 
-path = '/tmp/books.json'
+path = './books.json'
 
 if not os.path.exists(path):
     print('DB mancante, lanciare scraper.py')
@@ -41,6 +41,6 @@ for author in books['author_books']:
 html = html.replace('{content}', content)
 html = html.replace('{totale}', str(len(books['list'])))
 
-save = open('/tmp/index.html', 'w')
+save = open('./catalog.html', 'w')
 save.write(html)
 save.close()

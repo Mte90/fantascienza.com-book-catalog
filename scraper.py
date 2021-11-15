@@ -7,7 +7,7 @@ import json
 import re
 
 start_from = 1006 # Il primo libro è a questo id
-path = '/tmp/books.json'
+path = './books.json'
 
 if not os.path.exists(path):
     print('Nuovo DB in corso')
@@ -75,8 +75,9 @@ for article in range(start_from + 1, int(last_article_id)):
                 italian_publish_year = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(3)').text
                 isbn = ''
 
-            if len(italian_publish_year) > 4:
+            if len(italian_publish_year) > 4 or italian_publish_year == '':
                 italian_publish_year = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)').text
+                isbn = ''
 
         else:
             author_temp = soup.select_one('.blog-style .column4:nth-of-type(1) p:nth-of-type(2)')
@@ -129,10 +130,9 @@ for article in range(start_from + 1, int(last_article_id)):
         else:
             books['author_books'][author] = [article]
 
-        # Da spostare alla fine del loop per motivi di prestazioni
         books['author_books'] = dict(sorted(books['author_books'].items()))
-        with open(path, 'w') as outfile:
-            json.dump(books, outfile, indent=4)
-            outfile.close()
 
+with open(path, 'w') as outfile:
+    json.dump(books, outfile, indent=4)
+    outfile.close()
 print('Finito, trovati ' + str(len(books['list'])))
