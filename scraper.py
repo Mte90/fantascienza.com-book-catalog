@@ -43,7 +43,9 @@ def save(path, books):
 
 def parse_page(article):
     # Per calcolare la posizione dell'autore
-    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Avventura grafica', 'Illustrazione', 'Sparatutto 3D']
+    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Avventura grafica', 'Illustrazione', 'Sparatutto 3D','Piattaforme']
+    genere_ignorare = ['colonna sonora', 'antologia brani', 'Musicale', 'Guerra', 'Strategia in tempo reale', 'Cinema']
+    editore_ignorare = ['Panini Comics', 'Valve']
 
     URL = f'https://www.fantascienza.com/' + str(article)
     try:
@@ -58,17 +60,18 @@ def parse_page(article):
     if blog_review != None:
         is_movie = soup.select_one('.blog-style .column4.scheda label:nth-of-type(1)')
         is_soundtrack = soup.select_one('.blog-style .column4 p.genere')
+        is_editore_ignore = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(1)')
         is_broken = soup.select_one('.blog-style .column4 p.origine')
         is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
         if is_movie != None and is_movie.text == 'Regia':
             return
-        if is_soundtrack != None and (is_soundtrack.text == 'colonna sonora' or is_soundtrack.text == 'antologia brani'):
+        if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare):
+            return
+        if is_soundtrack != None and any(x in is_soundtrack.text for x in genere_ignorare):
             return
         if is_broken2 != None and is_broken2.text == 'colore':
             return
-        if is_broken != None and is_broken.text == ', ':
-            return
-        if soup.select_one('.blog-style .column4 p.genere') != None and soup.select_one('.blog-style .column4 p.genere').text == '':
+        if is_broken != None and (is_broken.text == ', ' or is_broken.text == ''):
             return
 
         isbn = ''
@@ -104,6 +107,9 @@ def parse_page(article):
                 italian_publish_year = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)').text
                 isbn = ''
 
+            if author == 'Romanzo Storico':
+                author = soup.select_one('.blog-style .column4:nth-of-type(2) p:nth-of-type(2)').text
+
         else:
             author_temp = soup.select_one('.blog-style .column4:nth-of-type(1) p:nth-of-type(2)')
             if author_temp == None or any(x in author_temp.text for x in generi):
@@ -133,6 +139,9 @@ def parse_page(article):
         if not italian_publish_year.isdigit() or italian_publish_year == '1':
             italian_publish_year = ''
 
+        if '(' in original_title:
+            original_title = ''
+
         if author == '' or "\t\t" in author:
             return
 
@@ -140,13 +149,14 @@ def parse_page(article):
         author = author.replace('AA. VV.','AA.VV.')
         author = author.replace('aa.vv.','AA.VV.')
         author = author.replace('Autori Vari','AA.VV.')
+        author = author.replace('Vari','AA.VV.')
 
         print("%d, scheda trovata!" % article)
 
         books['list'][str(article)] = {
             'title': soup.find('title').text,
             'author': author,
-            'original_title': original_title.replace('\n',''),
+            'original_title': original_title.replace('\n','').strip(),
             'italian_publish_year': italian_publish_year,
             'isbn': isbn.replace('-',''),
             'link': data.url

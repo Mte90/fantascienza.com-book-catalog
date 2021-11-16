@@ -35,7 +35,7 @@ for author in books['author_books']:
         original_title = ''
         if books['list'][str(book)]['original_title'] != '':
             original_title = ', <i>' + books['list'][str(book)]['original_title'] + '</i>'
-        books_list += '<li><a href="' + books['list'][str(book)]['link'] + '" target="_blank"><b>' + books['list'][str(book)]['title'] + '</b>' + year + isbn + original_title + '</a></li>'
+        books_list += '<li><a href="' + books['list'][str(book)]['link'] + '" target="_blank"><b>' + books['list'][str(book)]['title'] + '</b></a>' + year + isbn + original_title + '</li>'
     content = content.replace('{list}', books_list)
 
 html = html.replace('{content}', content)
