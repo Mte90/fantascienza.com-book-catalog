@@ -5,7 +5,10 @@ from bs4 import BeautifulSoup
 import os
 import json
 import re
+import time
+import concurrent.futures
 
+MAX_THREADS = 6 # Numero massimo di thread
 start_from = 1006 # Il primo libro è a questo id
 path = './books.json'
 
@@ -27,19 +30,28 @@ last_article_id = int(last_article['href'].split('/')[3]) - start_from
 print('Totale articoli da elaborare: ' + str(last_article_id))
 print('Ultimo articolo elaborato: ' + str(start_from))
 
-# Per calcolare la posizione dell'autore
-generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Avventura grafica', 'Illustrazione', 'Sparatutto 3D']
-
 if int(last_article_id) < int(start_from):
     last_article_id = last_article_id + start_from
 
-for article in range(start_from + 1, int(last_article_id)):
+def save(path, books):
+    books['author_books'] = dict(sorted(books['author_books'].items()))
+    books['list'] = dict(sorted(books['list'].items()))
+    print('Aggiorno il DB locale')
+    with open(path, 'w') as outfile:
+        json.dump(books, outfile, indent=4)
+        outfile.close()
+
+def parse_page(article):
+    # Per calcolare la posizione dell'autore
+    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Avventura grafica', 'Illustrazione', 'Sparatutto 3D']
+
     URL = f'https://www.fantascienza.com/' + str(article)
     try:
         data = requests.get(URL)
     except Exception as e:
         print(e + ':' + URL)
-        continue
+        return
+
     soup = BeautifulSoup(data.content, 'html.parser')
     blog_review = soup.select_one('.blog-style .column4')
 
@@ -49,15 +61,15 @@ for article in range(start_from + 1, int(last_article_id)):
         is_broken = soup.select_one('.blog-style .column4 p.origine')
         is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
         if is_movie != None and is_movie.text == 'Regia':
-            continue
+            return
         if is_soundtrack != None and (is_soundtrack.text == 'colonna sonora' or is_soundtrack.text == 'antologia brani'):
-            continue
+            return
         if is_broken2 != None and is_broken2.text == 'colore':
-            continue
+            return
         if is_broken != None and is_broken.text == ', ':
-            continue
+            return
         if soup.select_one('.blog-style .column4 p.genere') != None and soup.select_one('.blog-style .column4 p.genere').text == '':
-            continue
+            return
 
         isbn = ''
         italian_publish_year = ''
@@ -122,13 +134,13 @@ for article in range(start_from + 1, int(last_article_id)):
             italian_publish_year = ''
 
         if author == '' or "\t\t" in author:
-            continue
+            return
 
         author = author.replace('AA. VV.','AA.VV.')
         author = author.replace('aa.vv.','AA.VV.')
         author = author.replace('Autori Vari','AA.VV.')
 
-        print("%d scheda trovata!" % article)
+        print("%d, scheda trovata!" % article)
 
         books['list'][str(article)] = {
             'title': soup.find('title').text,
@@ -144,11 +156,15 @@ for article in range(start_from + 1, int(last_article_id)):
         else:
             books['author_books'][author] = [article]
 
-        books['author_books'] = dict(sorted(books['author_books'].items()))
-        books['list'] = dict(sorted(books['list'].items()))
+        time.sleep(0.25)
 
-        with open(path, 'w') as outfile:
-            json.dump(books, outfile, indent=4)
-            outfile.close()
+for article in range(start_from + 1, int(last_article_id)):
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        executor.submit(parse_page, article)
+        # Ogni 10 articoli elaborati salva per sicurezza
+        if '.0' in str(len(books['list'])/10):
+            save(path, books)
 
+# Salva alla fine in caso ne manchi qualcuno
+save(path, books)
 print('Finito, trovati ' + str(len(books['list'])))
