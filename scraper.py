@@ -20,7 +20,8 @@ else:
     with open(path, 'r') as outfile:
         books = json.load(outfile)
         outfile.close()
-    start_from = int(sorted(books['list'].keys())[-1])
+    if 'list' in books and len(books['list']):
+        start_from = int(sorted(books['list'].keys())[-1])
 
 data = requests.get('https://www.fantascienza.com/')
 soup = BeautifulSoup(data.content, 'html.parser')
