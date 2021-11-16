@@ -47,12 +47,12 @@ for article in range(start_from + 1, int(last_article_id)):
         is_movie = soup.select_one('.blog-style .column4.scheda label:nth-of-type(1)')
         is_soundtrack = soup.select_one('.blog-style .column4 p.genere')
         is_broken = soup.select_one('.blog-style .column4 p.origine')
-        is_broken2 = soup.select_one('.blog-style .column4 p.origine.label')
+        is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
         if is_movie != None and is_movie.text == 'Regia':
             continue
         if is_soundtrack != None and (is_soundtrack.text == 'colonna sonora' or is_soundtrack.text == 'antologia brani'):
             continue
-        if is_broken2 != None and (is_broken2.text == 'colore'):
+        if is_broken2 != None and is_broken2.text == 'colore':
             continue
         if is_broken != None and is_broken.text == ', ':
             continue
@@ -146,6 +146,7 @@ for article in range(start_from + 1, int(last_article_id)):
 
         books['author_books'] = dict(sorted(books['author_books'].items()))
         books['list'] = dict(sorted(books['list'].items()))
+
         with open(path, 'w') as outfile:
             json.dump(books, outfile, indent=4)
             outfile.close()
