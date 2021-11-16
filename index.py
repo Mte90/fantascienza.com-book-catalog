@@ -34,8 +34,8 @@ for author in books['author_books']:
             isbn = ', ' + books['list'][str(book)]['isbn']
         original_title = ''
         if books['list'][str(book)]['original_title'] != '':
-            original_title = ', ' + books['list'][str(book)]['original_title']
-        books_list += '<li><a href="' + books['list'][str(book)]['link'] + '" target="_blank">' + books['list'][str(book)]['title'] + year + isbn + original_title + '</a></li>'
+            original_title = ', <i>' + books['list'][str(book)]['original_title'] + '</i>'
+        books_list += '<li><a href="' + books['list'][str(book)]['link'] + '" target="_blank"><b>' + books['list'][str(book)]['title'] + '</b>' + year + isbn + original_title + '</a></li>'
     content = content.replace('{list}', books_list)
 
 html = html.replace('{content}', content)
@@ -44,3 +44,4 @@ html = html.replace('{totale}', str(len(books['list'])))
 save = open('./index.html', 'w')
 save.write(html)
 save.close()
+print('Fatto')
