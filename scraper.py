@@ -28,7 +28,10 @@ print('Totale articoli da elaborare: ' + str(last_article_id))
 print('Ultimo articolo elaborato: ' + str(start_from))
 
 # Per calcolare la posizione dell'autore
-generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico']
+generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Avventura grafica', 'Illustrazione', 'Sparatutto 3D']
+
+if int(last_article_id) < int(start_from):
+    last_article_id = last_article_id + start_from
 
 for article in range(start_from + 1, int(last_article_id)):
     URL = f'https://www.fantascienza.com/' + str(article)
@@ -44,9 +47,12 @@ for article in range(start_from + 1, int(last_article_id)):
         is_movie = soup.select_one('.blog-style .column4.scheda label:nth-of-type(1)')
         is_soundtrack = soup.select_one('.blog-style .column4 p.genere')
         is_broken = soup.select_one('.blog-style .column4 p.origine')
+        is_broken2 = soup.select_one('.blog-style .column4 p.origine.label')
         if is_movie != None and is_movie.text == 'Regia':
             continue
         if is_soundtrack != None and (is_soundtrack.text == 'colonna sonora' or is_soundtrack.text == 'antologia brani'):
+            continue
+        if is_broken2 != None and (is_broken2.text == 'colore'):
             continue
         if is_broken != None and is_broken.text == ', ':
             continue
@@ -115,15 +121,16 @@ for article in range(start_from + 1, int(last_article_id)):
         if not italian_publish_year.isdigit() or italian_publish_year == '1':
             italian_publish_year = ''
 
-        if author == '':
+        if author == '' or "\t\t" in author:
             continue
 
         author = author.replace('AA. VV.','AA.VV.')
         author = author.replace('aa.vv.','AA.VV.')
+        author = author.replace('Autori Vari','AA.VV.')
 
         print("%d scheda trovata!" % article)
 
-        books['list'][article] = {
+        books['list'][str(article)] = {
             'title': soup.find('title').text,
             'author': author,
             'original_title': original_title.replace('\n',''),
@@ -138,6 +145,7 @@ for article in range(start_from + 1, int(last_article_id)):
             books['author_books'][author] = [article]
 
         books['author_books'] = dict(sorted(books['author_books'].items()))
+        books['list'] = dict(sorted(books['list'].items()))
         with open(path, 'w') as outfile:
             json.dump(books, outfile, indent=4)
             outfile.close()

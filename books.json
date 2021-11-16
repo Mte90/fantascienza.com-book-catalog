@@ -6952,6 +6952,22 @@
             "isbn": "",
             "link": "https://www.fantascienza.com/17954/io-non-sono-come-voi"
         },
+        "10021": {
+            "title": "La regina degli scacchi",
+            "author": "Walter Tevis",
+            "original_title": "La regina degli scacchi",
+            "italian_publish_year": "2007",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/10021/la-regina-degli-scacchi"
+        },
+        "10033": {
+            "title": "Gli Eterni",
+            "author": "Neil Gaiman e John Romita Jr.",
+            "original_title": "The Eternals",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/10033/gli-eterni"
+        },
         "18048": {
             "title": "Star Wars X-Wings: Miniature Game",
             "author": "Giochi Uniti, \n\t\t\t\t\t\t\t\t\t\t\t2013\n\t\t\t\t\t\t\t",
@@ -8302,6 +8318,7 @@
             12900
         ],
         "Neil Gaiman e John Romita Jr.": [
+            10033,
             10033
         ],
         "Neil Gaiman, Charles Vess": [
@@ -8848,6 +8865,7 @@
             12973
         ],
         "Walter Tevis": [
+            10021,
             10021
         ],
         "Walther Tevis": [
