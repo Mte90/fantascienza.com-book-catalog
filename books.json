@@ -239,6 +239,86 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/1236/miliardi-di-tappeti-di-capelli"
+        },
+        "1237": {
+            "title": "Grande Macello",
+            "author": "Fabio Giovannini",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1237/grande-macello"
+        },
+        "1238": {
+            "title": "Alla periferia di Alphaville",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1238/alla-periferia-di-alphaville"
+        },
+        "1267": {
+            "title": "Il mistero di Incrucijada",
+            "author": "Gordiano Lupi",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1267/il-mistero-di-incrucijada"
+        },
+        "1291": {
+            "title": "Giallo Futuro 2000",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1291/giallo-futuro-2000"
+        },
+        "1292": {
+            "title": "Mary e il gigante",
+            "author": "Philip K. Dick",
+            "original_title": "Mary and the Giant",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1292/mary-e-il-gigante"
+        },
+        "1293": {
+            "title": "Schegge d'America",
+            "author": "Larry Mc Caffery",
+            "original_title": "After Yesterday's Crash: The Avant-Pop Anthology",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1293/schegge-d-america"
+        },
+        "1328": {
+            "title": "In senso inverso",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1328/in-senso-inverso"
+        },
+        "1329": {
+            "title": "Noir",
+            "author": "K. W. Jeter",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1329/noir"
+        },
+        "1330": {
+            "title": "Non \u00e8 vero ma ci credo",
+            "author": "Hy Ruchlis",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1330/non-e-vero-ma-ci-credo"
+        },
+        "1331": {
+            "title": "Il figlio delle tempeste",
+            "author": "Fabiana Redivo",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1331/il-figlio-delle-tempeste"
         }
     },
     "author_books": {
@@ -247,7 +327,8 @@
         ],
         "AA.VV.": [
             1083,
-            1157
+            1157,
+            1291
         ],
         "Adalberto Cersosimo": [
             1055
@@ -280,8 +361,20 @@
         "David Brin": [
             1044
         ],
+        "Fabiana Redivo": [
+            1331
+        ],
+        "Fabio Giovannini": [
+            1237
+        ],
+        "Gordiano Lupi": [
+            1267
+        ],
         "Hal Hellman": [
             1169
+        ],
+        "Hy Ruchlis": [
+            1330
         ],
         "James G. Ballard": [
             1235
@@ -289,11 +382,17 @@
         "John Marco": [
             1073
         ],
+        "K. W. Jeter": [
+            1329
+        ],
         "Kurt Vonnegut jr.": [
             1054
         ],
         "L. Sprague de Camp & Christopher Stasheff": [
             1069
+        ],
+        "Larry Mc Caffery": [
+            1293
         ],
         "Marco Vallarino": [
             1051
@@ -310,6 +409,10 @@
         "Patrick  S\u00fcskind": [
             1071
         ],
+        "Philip K. Dick": [
+            1292,
+            1328
+        ],
         "Robert Miall": [
             1064
         ],
@@ -324,6 +427,9 @@
         ],
         "Tim LaHaye, Jerry B. Jenkins": [
             1053
+        ],
+        "Valerio Evangelisti": [
+            1238
         ],
         "Walter J. Williams": [
             1063
