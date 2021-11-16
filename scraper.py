@@ -2,6 +2,7 @@
 
 import requests
 from bs4 import BeautifulSoup
+from natsort import natsorted
 import os
 import json
 import re
@@ -21,7 +22,7 @@ else:
         books = json.load(outfile)
         outfile.close()
     if 'list' in books and len(books['list']):
-        start_from = int(sorted(books['list'].keys())[-1])
+        start_from = int(natsorted(books['list'].keys())[-1])
 
 data = requests.get('https://www.fantascienza.com/')
 soup = BeautifulSoup(data.content, 'html.parser')
@@ -35,8 +36,8 @@ if int(last_article_id) < int(start_from):
     last_article_id = last_article_id + start_from
 
 def save(path, books):
-    books['author_books'] = dict(sorted(books['author_books'].items()))
-    books['list'] = dict(sorted(books['list'].items()))
+    books['author_books'] = dict(natsorted(books['author_books'].items()))
+    books['list'] = dict(natsorted(books['list'].items()))
     with open(path, 'r+') as outfile:
         print('Aggiorno il DB locale')
         json.dump(books, outfile, indent=4)
@@ -44,11 +45,12 @@ def save(path, books):
 
 def parse_page(article):
     # Per calcolare la posizione dell'autore
-    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Avventura grafica', 'Illustrazione', 'Sparatutto 3D','Piattaforme']
-    genere_ignorare = ['colonna sonora', 'antologia brani', 'Musicale', 'Guerra', 'Strategia in tempo reale', 'Cinema']
-    editore_ignorare = ['Panini Comics', 'Valve']
+    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica']
+    genere_ignorare = ['colonna sonora', 'antologia brani']
+    editore_ignorare = ['Panini Comics', 'Planeta De Agostini', 'Sergio Bonelli Editore']
 
     URL = f'https://www.fantascienza.com/' + str(article)
+
     try:
         data = requests.get(URL)
     except Exception as e:
@@ -64,6 +66,10 @@ def parse_page(article):
         is_editore_ignore = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(1)')
         is_broken = soup.select_one('.blog-style .column4 p.origine')
         is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
+        is_duration = soup.find_all('label', 'Durata')
+        is_songs = soup.find_all('label', 'Brani')
+        is_dev = soup.find_all('label', 'Sviluppatore')
+        is_episode = soup.find_all('label', 'Episodio')
         if is_movie != None and is_movie.text == 'Regia':
             return
         if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare):
@@ -73,6 +79,8 @@ def parse_page(article):
         if is_broken2 != None and is_broken2.text == 'colore':
             return
         if is_broken != None and (is_broken.text == ', ' or is_broken.text == ''):
+            return
+        if is_duration != [] or is_dev != [] or is_songs != [] or is_episode != []:
             return
 
         isbn = ''
