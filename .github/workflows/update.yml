@@ -19,8 +19,6 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install beautifulsoup4 natsort
       - name: Build
-        env:
-          MTE90_TOKEN: ${{ secrets.MTE90_TOKEN }}
         run: |-
           ./scraper.py && ./index.py
       - name: Commit and push if DB changed
