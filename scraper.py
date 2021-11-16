@@ -36,14 +36,10 @@ if int(last_article_id) < int(start_from):
 def save(path, books):
     books['author_books'] = dict(sorted(books['author_books'].items()))
     books['list'] = dict(sorted(books['list'].items()))
-    with open(path, 'w+') as outfile:
-        # Salva solo se diverso
-        if outfile.read() == '' or outfile.read() != json.dumps(books):
-            print('Aggiorno il DB locale')
-            outfile.write('')
-            json.dump(books, outfile, indent=4)
-            outfile.close()
-            time.sleep(0.25)
+    with open(path, 'r+') as outfile:
+        print('Aggiorno il DB locale')
+        json.dump(books, outfile, indent=4)
+        outfile.close()
 
 def parse_page(article):
     # Per calcolare la posizione dell'autore
@@ -161,12 +157,17 @@ def parse_page(article):
         else:
             books['author_books'][author] = [article]
 
+saved = False
 for article in range(start_from + 1, int(last_article_id)):
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         executor.submit(parse_page, article)
     # Ogni 10 articoli elaborati salva per sicurezza
     if '.0' in str(len(books['list'])/10):
-        save(path, books)
+        if saved == False:
+            save(path, books)
+            saved = True
+    else:
+        saved = False
 
 # Salva alla fine in caso ne manchi qualcuno
 save(path, books)

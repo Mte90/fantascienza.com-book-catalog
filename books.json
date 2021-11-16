@@ -319,6 +319,406 @@
             "italian_publish_year": "2000",
             "isbn": "",
             "link": "https://www.fantascienza.com/1331/il-figlio-delle-tempeste"
+        },
+        "1353": {
+            "title": "Strane Storie 6",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1353/strane-storie-6"
+        },
+        "1356": {
+            "title": "Strane Storie 5",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1356/strane-storie-5"
+        },
+        "1357": {
+            "title": "L'Uomo dai denti tutti uguali",
+            "author": "Philip K. Dick",
+            "original_title": "The Man Whose Teeth Were All Exactly Alike",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1357/l-uomo-dai-denti-tutti-uguali"
+        },
+        "1364": {
+            "title": "Dizionario degli esseri umani fantastici e artificiali",
+            "author": "Vincenzo Tagliasco",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1364/dizionario-degli-esseri-umani-fantastici-e-artificiali"
+        },
+        "1365": {
+            "title": "I giocatori di Titano",
+            "author": "Philip K. Dick",
+            "original_title": "The Game Players of Titan",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1365/i-giocatori-di-titano"
+        },
+        "1386": {
+            "title": "Il Prete",
+            "author": "Thomas M. Disch",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1386/il-prete"
+        },
+        "1387": {
+            "title": "Vita breve e felice di uno scrittore di fantascienza",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1387/vita-breve-e-felice-di-uno-scrittore-di-fantascienza"
+        },
+        "1411": {
+            "title": "L'inferno comincia nel giardino",
+            "author": "Jonathan Lethem",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1411/l-inferno-comincia-nel-giardino"
+        },
+        "1419": {
+            "title": "L'uomo nell'alto castello",
+            "author": "P. K. Dick",
+            "original_title": "The Man in the High Castle",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1419/l-uomo-nell-alto-castello"
+        },
+        "1420": {
+            "title": "Gotico rurale",
+            "author": "Eraldo Baldini",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1420/gotico-rurale"
+        },
+        "1447": {
+            "title": "La pietra degli elementi",
+            "author": "Fabiana Redivo",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1447/la-pietra-degli-elementi"
+        },
+        "1448": {
+            "title": "Lo stato dell'arte",
+            "author": "Ian M. Banks",
+            "original_title": "The State of the Art",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1448/lo-stato-dell-arte"
+        },
+        "1449": {
+            "title": "Testadipazzo",
+            "author": "Jonathan Lethem",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1449/testadipazzo"
+        },
+        "1450": {
+            "title": "Sento odore di Esther Williams e altre storie",
+            "author": "Mark Leyner",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1450/sento-odore-di-esther-williams-e-altre-storie"
+        },
+        "1451": {
+            "title": "Fine continua",
+            "author": "Giuliano Fiocco",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1451/fine-continua"
+        },
+        "1452": {
+            "title": "E Jones cre\u00f2 il Mondo",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1452/e-jones-creo-il-mondo"
+        },
+        "1498": {
+            "title": "Il male minore",
+            "author": "Carlos Eduardo Feiling",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1498/il-male-minore"
+        },
+        "1499": {
+            "title": "Corpo a corpo",
+            "author": "Iain Banks",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1499/corpo-a-corpo"
+        },
+        "1509": {
+            "title": "L'undicesimo comandamento",
+            "author": "Lester Del Rey",
+            "original_title": "",
+            "italian_publish_year": "1962",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1509/l-undicesimo-comandamento"
+        },
+        "1510": {
+            "title": "Il sogno di Eliza",
+            "author": "Motor",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1510/il-sogno-di-eliza"
+        },
+        "1511": {
+            "title": "Il sogno di Eliza",
+            "author": "Motor",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1511/il-sogno-di-eliza"
+        },
+        "1517": {
+            "title": "L'undicesimo comandamento",
+            "author": "Lester Del Rey",
+            "original_title": "",
+            "italian_publish_year": "1962",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1517/l-undicesimo-comandamento"
+        },
+        "1518": {
+            "title": "Non c'\u00e8 mondo",
+            "author": "Riccardo Coltri",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1518/non-c-e-mondo"
+        },
+        "1519": {
+            "title": "Il pianeta delle scimmie",
+            "author": "Pierre Boulle",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1519/il-pianeta-delle-scimmie"
+        },
+        "1566": {
+            "title": "Tre mani nel buio",
+            "author": "Eraldo Baldini",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1566/tre-mani-nel-buio"
+        },
+        "1575": {
+            "title": "Ai confini della realt\u00e0",
+            "author": "Rod Serling",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1575/ai-confini-della-realta"
+        },
+        "1577": {
+            "title": "Bios",
+            "author": "Robert Charles Wilson",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1577/bios"
+        },
+        "1590": {
+            "title": "Un oscuro infinito",
+            "author": "Gregory Benford",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1590/un-oscuro-infinito"
+        },
+        "1591": {
+            "title": "Final Fantasy",
+            "author": "Dean Wesley Smith",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1591/final-fantasy"
+        },
+        "1592": {
+            "title": "Il sicario",
+            "author": "Laura Iuorio",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1592/il-sicario"
+        },
+        "1621": {
+            "title": "Invito al Palazzo del Deviante",
+            "author": "Tim Powers",
+            "original_title": "Dinner At Deviant's Palace",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1621/invito-al-palazzo-del-deviante"
+        },
+        "1622": {
+            "title": "H. P. Lovecraft - Contro il mondo, contro la vita",
+            "author": "Michel Houellebecq",
+            "original_title": "Contre le monde",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1622/h-p-lovecraft-contro-il-mondo-contro-la-vita"
+        },
+        "1623": {
+            "title": "Nessun dove",
+            "author": "Neil Gaiman",
+            "original_title": "Neverwhere",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1623/nessun-dove"
+        },
+        "1646": {
+            "title": "Servocitt\u00e0",
+            "author": "Jack Williamson",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1646/servocitta"
+        },
+        "1647": {
+            "title": "Deus Irae",
+            "author": "P. K. Dick e R. Zelazny",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1647/deus-irae"
+        },
+        "1648": {
+            "title": "Universi che cadono a pezzi, la fantascienza di P. K. Dick",
+            "author": "Francesca Rispoli",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1648/universi-che-cadono-a-pezzi-la-fantascienza-di-p-k-dick"
+        },
+        "1664": {
+            "title": "La tredicesima notte",
+            "author": "Alan Gordon",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1664/la-tredicesima-notte"
+        },
+        "1665": {
+            "title": "Zero Assoluto",
+            "author": "Greg Bear",
+            "original_title": "Heads",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1665/zero-assoluto"
+        },
+        "1678": {
+            "title": "Storie di farfalle",
+            "author": "William T. Vollmann",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1678/storie-di-farfalle"
+        },
+        "1679": {
+            "title": "Generazione mucca pazza",
+            "author": "Fabien Perucca e G\u00e9rard Pouradier",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1679/generazione-mucca-pazza"
+        },
+        "1680": {
+            "title": "La Regina d'inverno",
+            "author": "B. Akunin (Grigori Tchkhartichvil)",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1680/la-regina-d-inverno"
+        },
+        "1681": {
+            "title": "L'acchiappasogni",
+            "author": "Stephen King",
+            "original_title": "Dreamcatcher",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1681/l-acchiappasogni"
+        },
+        "1682": {
+            "title": "Forza di gravit\u00e0",
+            "author": "Tess Gerritsen",
+            "original_title": "Gravity",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1682/forza-di-gravita"
+        },
+        "1694": {
+            "title": "Gli archi di Scona",
+            "author": "K.J. Parker",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1694/gli-archi-di-scona"
+        },
+        "1723": {
+            "title": "Ribelle genetico",
+            "author": "C.J. Cherryh",
+            "original_title": "Hammerfall",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1723/ribelle-genetico"
+        },
+        "1724": {
+            "title": "Resident Evil: Tyrant il distruttore, Caliban Cove",
+            "author": "Stephani Danell Perry",
+            "original_title": "Resident Evil. The Umbrella Conspiracy",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1724/resident-evil-tyrant-il-distruttore-caliban-cove"
+        },
+        "1725": {
+            "title": "Cryptonomicon",
+            "author": "Neal Stephenson",
+            "original_title": "Cryptonomicon",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1725/cryptonomicon"
+        },
+        "1733": {
+            "title": "Sarah",
+            "author": "J.T. Leroy",
+            "original_title": "Sarah",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1733/sarah"
+        },
+        "1734": {
+            "title": "La promessa",
+            "author": "Friedrich D\u00fcrrenmatt",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1734/la-promessa"
+        },
+        "1735": {
+            "title": "La mostra delle atrocit\u00e0",
+            "author": "James G. Ballard",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1735/la-mostra-delle-atrocita"
         }
     },
     "author_books": {
@@ -328,10 +728,15 @@
         "AA.VV.": [
             1083,
             1157,
-            1291
+            1291,
+            1353,
+            1356
         ],
         "Adalberto Cersosimo": [
             1055
+        ],
+        "Alan Gordon": [
+            1664
         ],
         "Alessandro Vietti": [
             1025
@@ -342,12 +747,21 @@
         "Andreas Eschbach": [
             1236
         ],
+        "B. Akunin (Grigori Tchkhartichvil)": [
+            1680
+        ],
         "Brian Herbert e Kevin J. Anderson": [
             1011
         ],
         "Bruce Sterling": [
             1070,
             1081
+        ],
+        "C.J. Cherryh": [
+            1723
+        ],
+        "Carlos Eduardo Feiling": [
+            1498
         ],
         "Claude Yelnick": [
             1072
@@ -361,14 +775,40 @@
         "David Brin": [
             1044
         ],
+        "Dean Wesley Smith": [
+            1591
+        ],
+        "Eraldo Baldini": [
+            1420,
+            1566
+        ],
         "Fabiana Redivo": [
-            1331
+            1331,
+            1447
+        ],
+        "Fabien Perucca e G\u00e9rard Pouradier": [
+            1679
         ],
         "Fabio Giovannini": [
             1237
         ],
+        "Francesca Rispoli": [
+            1648
+        ],
+        "Friedrich D\u00fcrrenmatt": [
+            1734
+        ],
+        "Giuliano Fiocco": [
+            1451
+        ],
         "Gordiano Lupi": [
             1267
+        ],
+        "Greg Bear": [
+            1665
+        ],
+        "Gregory Benford": [
+            1590
         ],
         "Hal Hellman": [
             1169
@@ -376,14 +816,34 @@
         "Hy Ruchlis": [
             1330
         ],
+        "Iain Banks": [
+            1499
+        ],
+        "Ian M. Banks": [
+            1448
+        ],
+        "J.T. Leroy": [
+            1733
+        ],
+        "Jack Williamson": [
+            1646
+        ],
         "James G. Ballard": [
-            1235
+            1235,
+            1735
         ],
         "John Marco": [
             1073
         ],
+        "Jonathan Lethem": [
+            1411,
+            1449
+        ],
         "K. W. Jeter": [
             1329
+        ],
+        "K.J. Parker": [
+            1694
         ],
         "Kurt Vonnegut jr.": [
             1054
@@ -394,8 +854,18 @@
         "Larry Mc Caffery": [
             1293
         ],
+        "Laura Iuorio": [
+            1592
+        ],
+        "Lester Del Rey": [
+            1509,
+            1517
+        ],
         "Marco Vallarino": [
             1051
+        ],
+        "Mark Leyner": [
+            1450
         ],
         "Massimo Mongai": [
             1008
@@ -406,12 +876,44 @@
         "Michael Crichton": [
             1041
         ],
+        "Michel Houellebecq": [
+            1622
+        ],
+        "Motor": [
+            1510,
+            1511
+        ],
+        "Neal Stephenson": [
+            1725
+        ],
+        "Neil Gaiman": [
+            1623
+        ],
+        "P. K. Dick": [
+            1419
+        ],
+        "P. K. Dick e R. Zelazny": [
+            1647
+        ],
         "Patrick  S\u00fcskind": [
             1071
         ],
         "Philip K. Dick": [
             1292,
-            1328
+            1328,
+            1357,
+            1365,
+            1387,
+            1452
+        ],
+        "Pierre Boulle": [
+            1519
+        ],
+        "Riccardo Coltri": [
+            1518
+        ],
+        "Robert Charles Wilson": [
+            1577
         ],
         "Robert Miall": [
             1064
@@ -419,20 +921,44 @@
         "Roberto Perego": [
             1020
         ],
+        "Rod Serling": [
+            1575
+        ],
         "Roland C. Wagner": [
             1052
         ],
         "Serge Lehman": [
             1077
         ],
+        "Stephani Danell Perry": [
+            1724
+        ],
+        "Stephen King": [
+            1681
+        ],
+        "Tess Gerritsen": [
+            1682
+        ],
+        "Thomas M. Disch": [
+            1386
+        ],
         "Tim LaHaye, Jerry B. Jenkins": [
             1053
+        ],
+        "Tim Powers": [
+            1621
         ],
         "Valerio Evangelisti": [
             1238
         ],
+        "Vincenzo Tagliasco": [
+            1364
+        ],
         "Walter J. Williams": [
             1063
+        ],
+        "William T. Vollmann": [
+            1678
         ]
     }
 }
