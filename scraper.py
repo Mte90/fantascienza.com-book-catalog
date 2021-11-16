@@ -38,7 +38,7 @@ def save(path, books):
     books['list'] = dict(sorted(books['list'].items()))
     with open(path, 'w+') as outfile:
         # Salva solo se diverso
-        if outfile.read() == '' or json.load(outfile) != books:
+        if outfile.read() == '' or outfile.read() != json.dumps(books):
             print('Aggiorno il DB locale')
             outfile.write('')
             json.dump(books, outfile, indent=4)
@@ -161,12 +161,10 @@ def parse_page(article):
         else:
             books['author_books'][author] = [article]
 
-        time.sleep(0.25)
-
 for article in range(start_from + 1, int(last_article_id)):
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         executor.submit(parse_page, article)
-        # Ogni 10 articoli elaborati salva per sicurezza
+    # Ogni 10 articoli elaborati salva per sicurezza
     if '.0' in str(len(books['list'])/10):
         save(path, books)
 

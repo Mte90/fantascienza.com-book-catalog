@@ -159,11 +159,95 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/1071/il-profumo"
+        },
+        "1072": {
+            "title": "L'uomo, questa malattia",
+            "author": "Claude Yelnick",
+            "original_title": "L'homme",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1072/l-uomo-questa-malattia"
+        },
+        "1073": {
+            "title": "Lo sciacallo di Nar",
+            "author": "John Marco",
+            "original_title": "The Jackal of Nar",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1073/lo-sciacallo-di-nar"
+        },
+        "1077": {
+            "title": "F.A.U.S.T.",
+            "author": "Serge Lehman",
+            "original_title": "",
+            "italian_publish_year": "1996",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1077/faust"
+        },
+        "1081": {
+            "title": "Un futuro all'antica",
+            "author": "Bruce Sterling",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1081/un-futuro-all-antica"
+        },
+        "1082": {
+            "title": "L'esorcista - 25 anni dopo",
+            "author": "Daniela Catelli",
+            "original_title": "",
+            "italian_publish_year": "1998",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1082/l-esorcista-25-anni-dopo"
+        },
+        "1083": {
+            "title": "G.Ho.S.T.",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1083/ghost"
+        },
+        "1157": {
+            "title": "Carmilla",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1157/carmilla"
+        },
+        "1169": {
+            "title": "Le dispute della Scienza",
+            "author": "Hal Hellman",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1169/le-dispute-della-scienza"
+        },
+        "1235": {
+            "title": "SuperCannes",
+            "author": "James G. Ballard",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1235/supercannes"
+        },
+        "1236": {
+            "title": "Miliardi di tappeti di capelli",
+            "author": "Andreas Eschbach",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1236/miliardi-di-tappeti-di-capelli"
         }
     },
     "author_books": {
         "A.C.Clarke e Stephen Baxter": [
             1050
+        ],
+        "AA.VV.": [
+            1083,
+            1157
         ],
         "Adalberto Cersosimo": [
             1055
@@ -174,17 +258,36 @@
         "Andrea Carlo Cappi e Edward Coffrini Dell'Orto": [
             1019
         ],
+        "Andreas Eschbach": [
+            1236
+        ],
         "Brian Herbert e Kevin J. Anderson": [
             1011
         ],
         "Bruce Sterling": [
-            1070
+            1070,
+            1081
+        ],
+        "Claude Yelnick": [
+            1072
         ],
         "Claudio Asciuti": [
             1007
         ],
+        "Daniela Catelli": [
+            1082
+        ],
         "David Brin": [
             1044
+        ],
+        "Hal Hellman": [
+            1169
+        ],
+        "James G. Ballard": [
+            1235
+        ],
+        "John Marco": [
+            1073
         ],
         "Kurt Vonnegut jr.": [
             1054
@@ -215,6 +318,9 @@
         ],
         "Roland C. Wagner": [
             1052
+        ],
+        "Serge Lehman": [
+            1077
         ],
         "Tim LaHaye, Jerry B. Jenkins": [
             1053
