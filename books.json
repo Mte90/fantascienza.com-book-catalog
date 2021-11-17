@@ -1,0 +1,2826 @@
+{
+    "list": {
+        "1007": {
+            "title": "La notte dei pitagorici",
+            "author": "Claudio Asciuti",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1007/la-notte-dei-pitagorici"
+        },
+        "1008": {
+            "title": "Il gioco degli immortali",
+            "author": "Massimo Mongai",
+            "original_title": "",
+            "italian_publish_year": "1999",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1008/il-gioco-degli-immortali"
+        },
+        "1011": {
+            "title": "Dune: House Atreides",
+            "author": "Brian Herbert e Kevin J. Anderson",
+            "original_title": "",
+            "italian_publish_year": "1999",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1011/dune-house-atreides"
+        },
+        "1019": {
+            "title": "Mondo Bond",
+            "author": "Andrea Carlo Cappi e Edward Coffrini Dell'Orto",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1019/mondo-bond"
+        },
+        "1020": {
+            "title": "Milano 2019: linea di confine",
+            "author": "Roberto Perego",
+            "original_title": "",
+            "italian_publish_year": "1999",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1020/milano-2019-linea-di-confine"
+        },
+        "1025": {
+            "title": "Il codice dell'invasore",
+            "author": "Alessandro Vietti",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1025/il-codice-dell-invasore"
+        },
+        "1037": {
+            "title": "Acqua, luce e gas",
+            "author": "Matt Ruff",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1037/acqua-luce-e-gas"
+        },
+        "1041": {
+            "title": "Timeline",
+            "author": "Michael Crichton",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1041/timeline"
+        },
+        "1044": {
+            "title": "Il pianeta proibito",
+            "author": "David Brin",
+            "original_title": "Brightness Reef",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1044/il-pianeta-proibito"
+        },
+        "1050": {
+            "title": "La luce del passato",
+            "author": "A.C.Clarke e Stephen Baxter",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1050/la-luce-del-passato"
+        },
+        "1051": {
+            "title": "Altrove",
+            "author": "Marco Vallarino",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1051/altrove"
+        },
+        "1052": {
+            "title": "La Sfera del Nulla",
+            "author": "Roland C. Wagner",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1052/la-sfera-del-nulla"
+        },
+        "1053": {
+            "title": "Gli esclusi",
+            "author": "Tim LaHaye, Jerry B. Jenkins",
+            "original_title": "",
+            "italian_publish_year": "1995",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1053/gli-esclusi"
+        },
+        "1054": {
+            "title": "Piano Meccanico",
+            "author": "Kurt Vonnegut jr.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1054/piano-meccanico"
+        },
+        "1055": {
+            "title": "Il libro dell'Impero",
+            "author": "Adalberto Cersosimo",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1055/il-libro-dell-impero"
+        },
+        "1063": {
+            "title": "La voce del vortice",
+            "author": "Walter J. Williams",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1063/la-voce-del-vortice"
+        },
+        "1064": {
+            "title": "Ufo Attacco alla Terra",
+            "author": "Robert Miall",
+            "original_title": "UFO",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1064/ufo-attacco-alla-terra"
+        },
+        "1069": {
+            "title": "L'incantatore rinato",
+            "author": "L. Sprague de Camp & Christopher Stasheff",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1069/l-incantatore-rinato"
+        },
+        "1070": {
+            "title": "Caos USA",
+            "author": "Bruce Sterling",
+            "original_title": "Distraction",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1070/caos-usa"
+        },
+        "1071": {
+            "title": "Il Profumo\"",
+            "author": "Patrick  S\u00fcskind",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1071/il-profumo"
+        },
+        "1072": {
+            "title": "L'uomo, questa malattia",
+            "author": "Claude Yelnick",
+            "original_title": "L'homme",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1072/l-uomo-questa-malattia"
+        },
+        "1073": {
+            "title": "Lo sciacallo di Nar",
+            "author": "John Marco",
+            "original_title": "The Jackal of Nar",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1073/lo-sciacallo-di-nar"
+        },
+        "1077": {
+            "title": "F.A.U.S.T.",
+            "author": "Serge Lehman",
+            "original_title": "",
+            "italian_publish_year": "1996",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1077/faust"
+        },
+        "1081": {
+            "title": "Un futuro all'antica",
+            "author": "Bruce Sterling",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1081/un-futuro-all-antica"
+        },
+        "1082": {
+            "title": "L'esorcista - 25 anni dopo",
+            "author": "Daniela Catelli",
+            "original_title": "",
+            "italian_publish_year": "1998",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1082/l-esorcista-25-anni-dopo"
+        },
+        "1083": {
+            "title": "G.Ho.S.T.",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1083/ghost"
+        },
+        "1157": {
+            "title": "Carmilla",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1157/carmilla"
+        },
+        "1169": {
+            "title": "Le dispute della Scienza",
+            "author": "Hal Hellman",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1169/le-dispute-della-scienza"
+        },
+        "1235": {
+            "title": "SuperCannes",
+            "author": "James G. Ballard",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1235/supercannes"
+        },
+        "1236": {
+            "title": "Miliardi di tappeti di capelli",
+            "author": "Andreas Eschbach",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1236/miliardi-di-tappeti-di-capelli"
+        },
+        "1237": {
+            "title": "Grande Macello",
+            "author": "Fabio Giovannini",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1237/grande-macello"
+        },
+        "1238": {
+            "title": "Alla periferia di Alphaville",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1238/alla-periferia-di-alphaville"
+        },
+        "1267": {
+            "title": "Il mistero di Incrucijada",
+            "author": "Gordiano Lupi",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1267/il-mistero-di-incrucijada"
+        },
+        "1291": {
+            "title": "Giallo Futuro 2000",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1291/giallo-futuro-2000"
+        },
+        "1292": {
+            "title": "Mary e il gigante",
+            "author": "Philip K. Dick",
+            "original_title": "Mary and the Giant",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1292/mary-e-il-gigante"
+        },
+        "1293": {
+            "title": "Schegge d'America",
+            "author": "Larry Mc Caffery",
+            "original_title": "After Yesterday's Crash: The Avant-Pop Anthology",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1293/schegge-d-america"
+        },
+        "1328": {
+            "title": "In senso inverso",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1328/in-senso-inverso"
+        },
+        "1329": {
+            "title": "Noir",
+            "author": "K. W. Jeter",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1329/noir"
+        },
+        "1330": {
+            "title": "Non \u00e8 vero ma ci credo",
+            "author": "Hy Ruchlis",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1330/non-e-vero-ma-ci-credo"
+        },
+        "1331": {
+            "title": "Il figlio delle tempeste",
+            "author": "Fabiana Redivo",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1331/il-figlio-delle-tempeste"
+        },
+        "1353": {
+            "title": "Strane Storie 6",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1353/strane-storie-6"
+        },
+        "1356": {
+            "title": "Strane Storie 5",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1356/strane-storie-5"
+        },
+        "1357": {
+            "title": "L'Uomo dai denti tutti uguali",
+            "author": "Philip K. Dick",
+            "original_title": "The Man Whose Teeth Were All Exactly Alike",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1357/l-uomo-dai-denti-tutti-uguali"
+        },
+        "1364": {
+            "title": "Dizionario degli esseri umani fantastici e artificiali",
+            "author": "Vincenzo Tagliasco",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1364/dizionario-degli-esseri-umani-fantastici-e-artificiali"
+        },
+        "1365": {
+            "title": "I giocatori di Titano",
+            "author": "Philip K. Dick",
+            "original_title": "The Game Players of Titan",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1365/i-giocatori-di-titano"
+        },
+        "1386": {
+            "title": "Il Prete",
+            "author": "Thomas M. Disch",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1386/il-prete"
+        },
+        "1387": {
+            "title": "Vita breve e felice di uno scrittore di fantascienza",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1387/vita-breve-e-felice-di-uno-scrittore-di-fantascienza"
+        },
+        "1411": {
+            "title": "L'inferno comincia nel giardino",
+            "author": "Jonathan Lethem",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1411/l-inferno-comincia-nel-giardino"
+        },
+        "1419": {
+            "title": "L'uomo nell'alto castello",
+            "author": "P. K. Dick",
+            "original_title": "The Man in the High Castle",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1419/l-uomo-nell-alto-castello"
+        },
+        "1420": {
+            "title": "Gotico rurale",
+            "author": "Eraldo Baldini",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1420/gotico-rurale"
+        },
+        "1447": {
+            "title": "La pietra degli elementi",
+            "author": "Fabiana Redivo",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1447/la-pietra-degli-elementi"
+        },
+        "1448": {
+            "title": "Lo stato dell'arte",
+            "author": "Ian M. Banks",
+            "original_title": "The State of the Art",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1448/lo-stato-dell-arte"
+        },
+        "1449": {
+            "title": "Testadipazzo",
+            "author": "Jonathan Lethem",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1449/testadipazzo"
+        },
+        "1450": {
+            "title": "Sento odore di Esther Williams e altre storie",
+            "author": "Mark Leyner",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1450/sento-odore-di-esther-williams-e-altre-storie"
+        },
+        "1451": {
+            "title": "Fine continua",
+            "author": "Giuliano Fiocco",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1451/fine-continua"
+        },
+        "1452": {
+            "title": "E Jones cre\u00f2 il Mondo",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1452/e-jones-creo-il-mondo"
+        },
+        "1498": {
+            "title": "Il male minore",
+            "author": "Carlos Eduardo Feiling",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1498/il-male-minore"
+        },
+        "1499": {
+            "title": "Corpo a corpo",
+            "author": "Iain Banks",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1499/corpo-a-corpo"
+        },
+        "1509": {
+            "title": "L'undicesimo comandamento",
+            "author": "Lester Del Rey",
+            "original_title": "",
+            "italian_publish_year": "1962",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1509/l-undicesimo-comandamento"
+        },
+        "1510": {
+            "title": "Il sogno di Eliza",
+            "author": "Motor",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1510/il-sogno-di-eliza"
+        },
+        "1511": {
+            "title": "Il sogno di Eliza",
+            "author": "Motor",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1511/il-sogno-di-eliza"
+        },
+        "1517": {
+            "title": "L'undicesimo comandamento",
+            "author": "Lester Del Rey",
+            "original_title": "",
+            "italian_publish_year": "1962",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1517/l-undicesimo-comandamento"
+        },
+        "1518": {
+            "title": "Non c'\u00e8 mondo",
+            "author": "Riccardo Coltri",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1518/non-c-e-mondo"
+        },
+        "1519": {
+            "title": "Il pianeta delle scimmie",
+            "author": "Pierre Boulle",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1519/il-pianeta-delle-scimmie"
+        },
+        "1566": {
+            "title": "Tre mani nel buio",
+            "author": "Eraldo Baldini",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1566/tre-mani-nel-buio"
+        },
+        "1575": {
+            "title": "Ai confini della realt\u00e0",
+            "author": "Rod Serling",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1575/ai-confini-della-realta"
+        },
+        "1577": {
+            "title": "Bios",
+            "author": "Robert Charles Wilson",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1577/bios"
+        },
+        "1590": {
+            "title": "Un oscuro infinito",
+            "author": "Gregory Benford",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1590/un-oscuro-infinito"
+        },
+        "1591": {
+            "title": "Final Fantasy",
+            "author": "Dean Wesley Smith",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1591/final-fantasy"
+        },
+        "1592": {
+            "title": "Il sicario",
+            "author": "Laura Iuorio",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1592/il-sicario"
+        },
+        "1621": {
+            "title": "Invito al Palazzo del Deviante",
+            "author": "Tim Powers",
+            "original_title": "Dinner At Deviant's Palace",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1621/invito-al-palazzo-del-deviante"
+        },
+        "1622": {
+            "title": "H. P. Lovecraft - Contro il mondo, contro la vita",
+            "author": "Michel Houellebecq",
+            "original_title": "Contre le monde",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1622/h-p-lovecraft-contro-il-mondo-contro-la-vita"
+        },
+        "1623": {
+            "title": "Nessun dove",
+            "author": "Neil Gaiman",
+            "original_title": "Neverwhere",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1623/nessun-dove"
+        },
+        "1646": {
+            "title": "Servocitt\u00e0",
+            "author": "Jack Williamson",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1646/servocitta"
+        },
+        "1647": {
+            "title": "Deus Irae",
+            "author": "P. K. Dick e R. Zelazny",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1647/deus-irae"
+        },
+        "1648": {
+            "title": "Universi che cadono a pezzi, la fantascienza di P. K. Dick",
+            "author": "Francesca Rispoli",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1648/universi-che-cadono-a-pezzi-la-fantascienza-di-p-k-dick"
+        },
+        "1664": {
+            "title": "La tredicesima notte",
+            "author": "Alan Gordon",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1664/la-tredicesima-notte"
+        },
+        "1665": {
+            "title": "Zero Assoluto",
+            "author": "Greg Bear",
+            "original_title": "Heads",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1665/zero-assoluto"
+        },
+        "1678": {
+            "title": "Storie di farfalle",
+            "author": "William T. Vollmann",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1678/storie-di-farfalle"
+        },
+        "1679": {
+            "title": "Generazione mucca pazza",
+            "author": "Fabien Perucca e G\u00e9rard Pouradier",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1679/generazione-mucca-pazza"
+        },
+        "1680": {
+            "title": "La Regina d'inverno",
+            "author": "B. Akunin (Grigori Tchkhartichvil)",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1680/la-regina-d-inverno"
+        },
+        "1681": {
+            "title": "L'acchiappasogni",
+            "author": "Stephen King",
+            "original_title": "Dreamcatcher",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1681/l-acchiappasogni"
+        },
+        "1682": {
+            "title": "Forza di gravit\u00e0",
+            "author": "Tess Gerritsen",
+            "original_title": "Gravity",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1682/forza-di-gravita"
+        },
+        "1694": {
+            "title": "Gli archi di Scona",
+            "author": "K.J. Parker",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1694/gli-archi-di-scona"
+        },
+        "1723": {
+            "title": "Ribelle genetico",
+            "author": "C.J. Cherryh",
+            "original_title": "Hammerfall",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1723/ribelle-genetico"
+        },
+        "1724": {
+            "title": "Resident Evil: Tyrant il distruttore, Caliban Cove",
+            "author": "Stephani Danell Perry",
+            "original_title": "Resident Evil. The Umbrella Conspiracy",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1724/resident-evil-tyrant-il-distruttore-caliban-cove"
+        },
+        "1725": {
+            "title": "Cryptonomicon",
+            "author": "Neal Stephenson",
+            "original_title": "Cryptonomicon",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1725/cryptonomicon"
+        },
+        "1733": {
+            "title": "Sarah",
+            "author": "J.T. Leroy",
+            "original_title": "Sarah",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1733/sarah"
+        },
+        "1734": {
+            "title": "La promessa",
+            "author": "Friedrich D\u00fcrrenmatt",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1734/la-promessa"
+        },
+        "1735": {
+            "title": "La mostra delle atrocit\u00e0",
+            "author": "James G. Ballard",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1735/la-mostra-delle-atrocita"
+        },
+        "1736": {
+            "title": "Terra di Nessuno",
+            "author": "Eraldo Baldini",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1736/terra-di-nessuno"
+        },
+        "1886": {
+            "title": "Dreamland",
+            "author": "Phil Patton",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1886/dreamland"
+        },
+        "1887": {
+            "title": "Guerra Santa",
+            "author": "Jean-Marc Ligny",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1887/guerra-santa"
+        },
+        "1888": {
+            "title": "Le fantasie della scienza",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1888/le-fantasie-della-scienza"
+        },
+        "1889": {
+            "title": "William S. Burroughs e Brion Gysin",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1889/william-s-burroughs-e-brion-gysin"
+        },
+        "1890": {
+            "title": "Gambetto turco",
+            "author": "B. Akunin (Grigori Tchkhartichvil)",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1890/gambetto-turco"
+        },
+        "1891": {
+            "title": "Il Peso dell'Acqua",
+            "author": "Anita Shreve",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1891/il-peso-dell-acqua"
+        },
+        "1921": {
+            "title": "Manifesto per chi muore",
+            "author": "Domenic Stansberry",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1921/manifesto-per-chi-muore"
+        },
+        "1922": {
+            "title": "Spazio 1999: L'ultimo tramonto",
+            "author": "Gianni Padoan",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1922/spazio-1999-l-ultimo-tramonto"
+        },
+        "1923": {
+            "title": "Il sole non \u00e8 per noi",
+            "author": "L\u00e9o Malet",
+            "original_title": "Le soleil n'est pas pour nous",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1923/il-sole-non-e-per-noi"
+        },
+        "1924": {
+            "title": "Mater Maxima",
+            "author": "Donato Altomare",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1924/mater-maxima"
+        },
+        "1943": {
+            "title": "Original Sin",
+            "author": "Terence Blanchard",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1943/original-sin"
+        },
+        "1944": {
+            "title": "Amelie",
+            "author": "Yann Tiersen",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1944/amelie"
+        },
+        "1945": {
+            "title": "Ocean's eleven",
+            "author": "Artisti AA.VV.",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1945/ocean-s-eleven"
+        },
+        "1946": {
+            "title": "Rush Hour 2",
+            "author": "Artisti AA.VV.",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1946/rush-hour-2"
+        },
+        "1947": {
+            "title": "L'uomo che non c'era",
+            "author": "Carter Burwell",
+            "original_title": "The man who wasn't there",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1947/l-uomo-che-non-c-era"
+        },
+        "1948": {
+            "title": "Spy Game",
+            "author": "Harry Gregson Williams",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1948/spy-game"
+        },
+        "1949": {
+            "title": "Osmosis Jones",
+            "author": "Artisti AA.VV.",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1949/osmosis-jones"
+        },
+        "1950": {
+            "title": "E mor\u00ec con un Felafel in mano",
+            "author": "Artisti AA.VV.",
+            "original_title": "He died with a Felafel in his hand",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1950/e-mori-con-un-felafel-in-mano"
+        },
+        "1951": {
+            "title": "Enigma",
+            "author": "John Barry",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1951/enigma"
+        },
+        "1952": {
+            "title": "Cinema Top Hits",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1952/cinema-top-hits"
+        },
+        "1953": {
+            "title": "Kiss of the dragon (soundtrack)",
+            "author": "Artisti AA.VV.",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1953/kiss-of-the-dragon-soundtrack"
+        },
+        "1954": {
+            "title": "Kiss of the dragon (score)",
+            "author": "Craig Armstrong",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1954/kiss-of-the-dragon-score"
+        },
+        "1955": {
+            "title": "Biancaneve e i sette nani",
+            "author": "Artisti AA.VV.",
+            "original_title": "Snowhite and the seven dwarfs",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1955/biancaneve-e-i-sette-nani"
+        },
+        "1956": {
+            "title": "Atlantis",
+            "author": "James Newton Howard",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1956/atlantis"
+        },
+        "1957": {
+            "title": "Il signore degli Anelli: La compagnia dell'anello",
+            "author": "Howard Shore / Enya",
+            "original_title": "Lord of the rings: the fellowship of the ring",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1957/il-signore-degli-anelli-la-compagnia-dell-anello"
+        },
+        "1958": {
+            "title": "Harry Potter e la pietra filosofale",
+            "author": "John Williams",
+            "original_title": "Harry Potter and the sorcerer's stone",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1958/harry-potter-e-la-pietra-filosofale"
+        },
+        "1997": {
+            "title": "Teranesia",
+            "author": "Greg Egan",
+            "original_title": "Teranesia",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1997/teranesia"
+        },
+        "1998": {
+            "title": "No",
+            "author": "Diego Cugia",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1998/no"
+        },
+        "1999": {
+            "title": "H/H",
+            "author": "Banana Yoshimoto",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/1999/hh"
+        },
+        "2000": {
+            "title": "Assassinio sul Leviathan",
+            "author": "B. Akunin (Grigori Tchkhartichvil)",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2000/assassinio-sul-leviathan"
+        },
+        "2052": {
+            "title": "Criptosfera",
+            "author": "Iain M. Banks",
+            "original_title": "Feersum Endjinn",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2052/criptosfera"
+        },
+        "2077": {
+            "title": "Freeware - La nuova carne",
+            "author": "Rudy Rucker",
+            "original_title": "Freeware",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2077/freeware-la-nuova-carne"
+        },
+        "2078": {
+            "title": "Occhi d'ambra e altre storie",
+            "author": "Joan D. Vinge",
+            "original_title": "Eyes of amber - Fireship - Phoenix in the ashes",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2078/occhi-d-ambra-e-altre-storie"
+        },
+        "2079": {
+            "title": "Resident Evil: La citt\u00e0 dei morti",
+            "author": "S.D. Perry",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2079/resident-evil-la-citta-dei-morti"
+        },
+        "2080": {
+            "title": "Il mistero dei Kyber",
+            "author": "Ian Watson",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2080/il-mistero-dei-kyber"
+        },
+        "2093": {
+            "title": "Harry Potter e la camera dei segreti",
+            "author": "Joanne K. Rowling",
+            "original_title": "Harry Potter and the Chamber of Secrets",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2093/harry-potter-e-la-camera-dei-segreti"
+        },
+        "2126": {
+            "title": "Io, erotica",
+            "author": "Jean-Marc Ligny",
+            "original_title": "Cosmic Erotica \u00ad Une antologie f\u00e9minine",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2126/io-erotica"
+        },
+        "2127": {
+            "title": "F.A.U.S.T. 2 - I difensori",
+            "author": "Serge Lehman",
+            "original_title": "Les D\u00e9fenseurs",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2127/faust-2-i-difensori"
+        },
+        "2128": {
+            "title": "Divine Invasioni: la vita di Philip K. Dick",
+            "author": "Lawrence Sutin",
+            "original_title": "Divine Invasions",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2128/divine-invasioni-la-vita-di-philip-k-dick"
+        },
+        "2170": {
+            "title": "Black Cat",
+            "author": "Martyn Bedford",
+            "original_title": "Black Cat",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2170/black-cat"
+        },
+        "2194": {
+            "title": "Il sistema Dayworld",
+            "author": "Philip Jose Farmer",
+            "original_title": "Dayworld",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2194/il-sistema-dayworld"
+        },
+        "2201": {
+            "title": "La fine di un'era",
+            "author": "Robert J. Sawyer",
+            "original_title": "End of an Era",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2201/la-fine-di-un-era"
+        },
+        "2202": {
+            "title": "La donna che rubava i mariti",
+            "author": "Margaret Atwood",
+            "original_title": "The robber bride",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2202/la-donna-che-rubava-i-mariti"
+        },
+        "2203": {
+            "title": "Nomadi nel grande nord",
+            "author": "James Oliver Curwood",
+            "original_title": "Nomads of the north",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2203/nomadi-nel-grande-nord"
+        },
+        "2204": {
+            "title": "L' era dei miracoli",
+            "author": "John Shirley",
+            "original_title": "Silicon embrace",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2204/l-era-dei-miracoli"
+        },
+        "2244": {
+            "title": "Paria dei cieli",
+            "author": "Isaac Asimov",
+            "original_title": "Pebble in the sky",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2244/paria-dei-cieli"
+        },
+        "2245": {
+            "title": "Svegliatevi dormienti",
+            "author": "Philip K. Dick",
+            "original_title": "The Crack in Space",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2245/svegliatevi-dormienti"
+        },
+        "2246": {
+            "title": "Ammazzare il tempo",
+            "author": "Teresa Regna",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2246/ammazzare-il-tempo"
+        },
+        "2247": {
+            "title": "Ritornati dalla polvere",
+            "author": "Ray Bradbury",
+            "original_title": "From the Dust Returned",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2247/ritornati-dalla-polvere"
+        },
+        "2261": {
+            "title": "Citt\u00e0 oscura",
+            "author": "Alan D. Altieri",
+            "original_title": "",
+            "italian_publish_year": "1996",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2261/citta-oscura"
+        },
+        "2262": {
+            "title": "The Sandman -The dream hunters",
+            "author": "Neil Gaiman, Yoshitaka Amano",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2262/the-sandman-the-dream-hunters"
+        },
+        "2263": {
+            "title": "Stardust",
+            "author": "Neil Gaiman, Charles Vess",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2263/stardust"
+        },
+        "2295": {
+            "title": "Confessioni di un artista di merda",
+            "author": "Philip K. Dick",
+            "original_title": "Confessions of a Crap Artist",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2295/confessioni-di-un-artista-di-merda"
+        },
+        "2296": {
+            "title": "Il Sognatore d'armi",
+            "author": "Philip K. Dick",
+            "original_title": "The Zap Gun",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2296/il-sognatore-d-armi"
+        },
+        "2297": {
+            "title": "Le tre stimmate di Palmer Eldritch",
+            "author": "Philip K. Dick",
+            "original_title": "The Three Stigmata of Palmer Eldritch",
+            "italian_publish_year": "1999",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2297/le-tre-stimmate-di-palmer-eldritch"
+        },
+        "2298": {
+            "title": "Trilogia di Valis",
+            "author": "Philip K. Dick",
+            "original_title": "Valis",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2298/trilogia-di-valis"
+        },
+        "2299": {
+            "title": "La congiura dei lunghi",
+            "author": "Noah Hawley",
+            "original_title": "A conspiracy of tall men",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2299/la-congiura-dei-lunghi"
+        },
+        "2348": {
+            "title": "Il mostro di Roma",
+            "author": "Lucio Trevisan",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2348/il-mostro-di-roma"
+        },
+        "2349": {
+            "title": "Maneggiare con cura - Il meglio di Joe R.Lansdale",
+            "author": "Joe R.Lansdale",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2349/maneggiare-con-cura-il-meglio-di-joe-rlansdale"
+        },
+        "2350": {
+            "title": "Havana Glam",
+            "author": "Wu Ming 5",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2350/havana-glam"
+        },
+        "2351": {
+            "title": "Congo",
+            "author": "Michael Crichton",
+            "original_title": "Congo",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2351/congo"
+        },
+        "2352": {
+            "title": "La casa del buio",
+            "author": "Stephen King & Peter Straub",
+            "original_title": "",
+            "italian_publish_year": "8820032899",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2352/la-casa-del-buio"
+        },
+        "2353": {
+            "title": "Radio libera Albemuth",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2353/radio-libera-albemuth"
+        },
+        "2354": {
+            "title": "Il giustiziere del Malec\u00f2n",
+            "author": "Gordiano Lupi",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2354/il-giustiziere-del-malecon"
+        },
+        "2355": {
+            "title": "Jack lo Squartatore",
+            "author": "Robert Bloch",
+            "original_title": "The night of the ripper",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2355/jack-lo-squartatore"
+        },
+        "2356": {
+            "title": "K-PAX Da un altro mondo",
+            "author": "Gene Brewer",
+            "original_title": "K-PAX",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2356/k-pax-da-un-altro-mondo"
+        },
+        "2357": {
+            "title": "Hai presente Seattle?",
+            "author": "Giovanna Carboni",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2357/hai-presente-seattle"
+        },
+        "2417": {
+            "title": "La realt\u00e0 in trasparenza",
+            "author": "J.R.R. Tolkien",
+            "original_title": "The Letters of J.R.R. Tolkien",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2417/la-realta-in-trasparenza"
+        },
+        "2418": {
+            "title": "Necronomicon",
+            "author": "Sergio Basile",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2418/necronomicon"
+        },
+        "2419": {
+            "title": "Olaf Spadarossa: L'uomo del nord",
+            "author": "Henry Rider Haggard",
+            "original_title": "The wanderer's necklage",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2419/olaf-spadarossa-l-uomo-del-nord"
+        },
+        "2420": {
+            "title": "La Colonna di Fuoco",
+            "author": "Valentino Compassi",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2420/la-colonna-di-fuoco"
+        },
+        "2421": {
+            "title": "La Futura Scienza di Giordano Bruno e la nascita dell'uomo nuovo",
+            "author": "Giuliana Conforto",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2421/la-futura-scienza-di-giordano-bruno-e-la-nascita-dell-uomo-nuovo"
+        },
+        "2422": {
+            "title": "Jack l'uomo della Folla",
+            "author": "Diego Cugia",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2422/jack-l-uomo-della-folla"
+        },
+        "2423": {
+            "title": "L'uomo nero",
+            "author": "Roberto Pace",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2423/l-uomo-nero"
+        },
+        "2424": {
+            "title": "La maschera di Scimmia",
+            "author": "Dorothy Porter",
+            "original_title": "Monkey",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2424/la-maschera-di-scimmia"
+        },
+        "2505": {
+            "title": "Sette anni alieni",
+            "author": "Franco Forte e Franco Clun",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2505/sette-anni-alieni"
+        },
+        "2506": {
+            "title": "Sette anni oscuri",
+            "author": "Franco Forte e Franco Clun",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2506/sette-anni-oscuri"
+        },
+        "2507": {
+            "title": "Miliardi di tappeti di capelli",
+            "author": "Andreas Eschbach",
+            "original_title": "Die Haarteppichn\u00fcpfer",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2507/miliardi-di-tappeti-di-capelli"
+        },
+        "2508": {
+            "title": "La guerra del fuoco",
+            "author": "Joseph H. Rosny",
+            "original_title": "La guerre du feu",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2508/la-guerra-del-fuoco"
+        },
+        "2557": {
+            "title": "Ombre nel silenzio",
+            "author": "Franco Forte e Luigi Pach\u00ec",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2557/ombre-nel-silenzio"
+        },
+        "2558": {
+            "title": "Viaggio alieno",
+            "author": "Kevin J. Anderson",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2558/viaggio-alieno"
+        },
+        "2559": {
+            "title": "L'osella misteriosa del Doge Grimani",
+            "author": "Renato Pestriniero",
+            "original_title": "",
+            "italian_publish_year": "2001",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2559/l-osella-misteriosa-del-doge-grimani"
+        },
+        "2560": {
+            "title": "La leggenda della nave di carta - Racconti di fantascienza giapponese",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2560/la-leggenda-della-nave-di-carta-racconti-di-fantascienza-giapponese"
+        },
+        "2561": {
+            "title": "Kieron l'uomo della terza fase",
+            "author": "Edmund Cooper",
+            "original_title": "The cloud walker",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2561/kieron-l-uomo-della-terza-fase"
+        },
+        "2562": {
+            "title": "L'ultima lacrima",
+            "author": "Stefano Benni",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2562/l-ultima-lacrima"
+        },
+        "2563": {
+            "title": "Il ragazzo che prendeva a calci i porcelli",
+            "author": "Tom Baker",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2563/il-ragazzo-che-prendeva-a-calci-i-porcelli"
+        },
+        "2564": {
+            "title": "Ingannevole \u00e8 il cuore pi\u00f9 di ogni cosa",
+            "author": "J.T. LeRoy",
+            "original_title": "Heart is Deceitful Above All Things",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2564/ingannevole-e-il-cuore-piu-di-ogni-cosa"
+        },
+        "2565": {
+            "title": "Il Signore delle Mosche",
+            "author": "William Golding",
+            "original_title": "Lord of the flies",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2565/il-signore-delle-mosche"
+        },
+        "2566": {
+            "title": "Nebbia sul ponte di Tolbiac",
+            "author": "L\u00e9o Malet",
+            "original_title": "Brouillard au pont de Tolbiac",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2566/nebbia-sul-ponte-di-tolbiac"
+        },
+        "2617": {
+            "title": "Davy l'Eretico",
+            "author": "Edgar Pangborn",
+            "original_title": "The golden horn - A war of no consequence",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2617/davy-l-eretico"
+        },
+        "2618": {
+            "title": "Il respiro delle montagne",
+            "author": "Ornella Lepre",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2618/il-respiro-delle-montagne"
+        },
+        "2619": {
+            "title": "Lo Hobbit o la riconquista del tesoro",
+            "author": "J.R.R. Tolkien",
+            "original_title": "The Hobbit",
+            "italian_publish_year": "1937",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2619/lo-hobbit-o-la-riconquista-del-tesoro"
+        },
+        "2620": {
+            "title": "Le avventure di Tom Bombadil",
+            "author": "J.R.R. Tolkien",
+            "original_title": "The Adventures of Tom Bombadil",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2620/le-avventure-di-tom-bombadil"
+        },
+        "2621": {
+            "title": "Il Cacciatore di draghi ovvero Giles l'Agricoltore di Ham",
+            "author": "J.R.R. Tolkien",
+            "original_title": "Farmer Giles of Ham",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2621/il-cacciatore-di-draghi-ovvero-giles-l-agricoltore-di-ham"
+        },
+        "2622": {
+            "title": "L' uomo dei due mondi",
+            "author": "Raymond F. Jones",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2622/l-uomo-dei-due-mondi"
+        },
+        "2623": {
+            "title": "Furia",
+            "author": "Salman Rushdie",
+            "original_title": "Fury",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2623/furia"
+        },
+        "2624": {
+            "title": "Beowulf",
+            "author": "Seamus Heaney",
+            "original_title": "Beowulf",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2624/beowulf"
+        },
+        "2657": {
+            "title": "Black Flag",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2657/black-flag"
+        },
+        "2658": {
+            "title": "I biplani di D'Annunzio",
+            "author": "Luca Masali",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2658/i-biplani-di-d-annunzio"
+        },
+        "2659": {
+            "title": "Nessun dove",
+            "author": "Neil Gaiman",
+            "original_title": "Neverwhere",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2659/nessun-dove"
+        },
+        "2660": {
+            "title": "Generazione Proteus",
+            "author": "Dean Koontz",
+            "original_title": "Demon Seed",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2660/generazione-proteus"
+        },
+        "2671": {
+            "title": "Radio aliena Hasselblad",
+            "author": "Franco Ricciardiello",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2671/radio-aliena-hasselblad"
+        },
+        "2695": {
+            "title": "Eva",
+            "author": "Nicoletta Vallorani",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2695/eva"
+        },
+        "2696": {
+            "title": "The Mothman Prophecies",
+            "author": "John A. Keel",
+            "original_title": "The Mothman Prophecies",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2696/the-mothman-prophecies"
+        },
+        "2697": {
+            "title": "Stella meravigliosa",
+            "author": "Yukio Mishima",
+            "original_title": "Utsukushii Hoshi",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2697/stella-meravigliosa"
+        },
+        "2698": {
+            "title": "Il Fante di picche",
+            "author": "B. Akunin",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2698/il-fante-di-picche"
+        },
+        "2699": {
+            "title": "Organi",
+            "author": "Alda Teodorani",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2699/organi"
+        },
+        "2727": {
+            "title": "Cartografia dell'inferno 50 anni di fantascienza in Italia 1952-2002",
+            "author": "Gianfranco de Turris",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2727/cartografia-dell-inferno-50-anni-di-fantascienza-in-italia-1952-2002"
+        },
+        "2728": {
+            "title": "3012 L'anno del Profeta",
+            "author": "Sebastiano Vassalli",
+            "original_title": "",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2728/3012-l-anno-del-profeta"
+        },
+        "2729": {
+            "title": "L'universo Cyber 3",
+            "author": "Piergiorgio Nicolazzini",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2729/l-universo-cyber-3"
+        },
+        "2730": {
+            "title": " Ai confini della realt\u00e0 - Tutti i racconti",
+            "author": "Rod Serling",
+            "original_title": "The Twilight Zone: complete stories",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2730/ai-confini-della-realta-tutti-i-racconti"
+        },
+        "2731": {
+            "title": "The body artist",
+            "author": "Don DeLillo",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2731/the-body-artist"
+        },
+        "2732": {
+            "title": "Cherudek",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2732/cherudek"
+        },
+        "2749": {
+            "title": "La caverna",
+            "author": "Jos\u00e9 Saramago",
+            "original_title": "A caverna",
+            "italian_publish_year": "2000",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2749/la-caverna"
+        },
+        "2750": {
+            "title": "Amico della terra",
+            "author": "T. Coraghessan Boyle",
+            "original_title": "A Friend of the Earth",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2750/amico-della-terra"
+        },
+        "2817": {
+            "title": "Santa Maradona",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2817/santa-maradona"
+        },
+        "2819": {
+            "title": "Vanilla Sky",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2819/vanilla-sky"
+        },
+        "2820": {
+            "title": "Cuori in Atlantide",
+            "author": "Michael Danna",
+            "original_title": "Hearts in Atlantis",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2820/cuori-in-atlantide"
+        },
+        "2821": {
+            "title": "Il castello",
+            "author": "Jerry Goldsmith",
+            "original_title": "The last castle",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2821/il-castello"
+        },
+        "2822": {
+            "title": "Mulholland Drive",
+            "author": "Angelo Badalamenti",
+            "original_title": "Id.",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2822/mulholland-drive"
+        },
+        "2823": {
+            "title": "K-PAX",
+            "author": "Edward Shearmur",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2823/k-pax"
+        },
+        "2824": {
+            "title": "Ali",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2824/ali"
+        },
+        "2825": {
+            "title": "A beautiful mind",
+            "author": "James Horner",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2825/a-beautiful-mind"
+        },
+        "2826": {
+            "title": "Paz!",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2826/paz"
+        },
+        "2828": {
+            "title": "The Majestic",
+            "author": "Mark Isham, Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2828/the-majestic"
+        },
+        "2830": {
+            "title": "Not another teen movie",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2830/not-another-teen-movie"
+        },
+        "2831": {
+            "title": "Gosford Park",
+            "author": "Patrick Doyle",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2831/gosford-park"
+        },
+        "2832": {
+            "title": "Monsters & Co.",
+            "author": "Randy Newman",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2832/monsters-and-co"
+        },
+        "2834": {
+            "title": "Amn\u00e9sia - La Noche",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2834/amnesia-la-noche"
+        },
+        "2835": {
+            "title": "Amn\u00e9sia",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2835/amnesia"
+        },
+        "2836": {
+            "title": "Black Hawk Down",
+            "author": "Hans Zimmer",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2836/black-hawk-down"
+        },
+        "2837": {
+            "title": "Big Bad Love",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2837/big-bad-love"
+        },
+        "2839": {
+            "title": "I Tenebaum",
+            "author": "Artisti AA.VV.",
+            "original_title": "The Royal Tenebaums",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2839/i-tenebaum"
+        },
+        "2840": {
+            "title": "Queen of the damned",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2840/queen-of-the-damned"
+        },
+        "2841": {
+            "title": "Ali (Soundtrack)",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2841/ali-soundtrack"
+        },
+        "2842": {
+            "title": "Moulin Rouge Vol.2",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2842/moulin-rouge-vol2"
+        },
+        "2843": {
+            "title": "The Magic of Disney",
+            "author": "20 Superstar Hits",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2843/the-magic-of-disney"
+        },
+        "2844": {
+            "title": "E.T.",
+            "author": "The 20Th Anniversary",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2844/et"
+        },
+        "2847": {
+            "title": "The Lion King Collection",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2847/the-lion-king-collection"
+        },
+        "2848": {
+            "title": "The Blues Brothers Collection",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2848/the-blues-brothers-collection"
+        },
+        "2852": {
+            "title": "The Lion King - Broadway Cast Recording",
+            "author": "Elton John, Tim Rice, Mark Mancina",
+            "original_title": "Elton John & Tim Rice",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2852/the-lion-king-broadway-cast-recording"
+        },
+        "2853": {
+            "title": "Sotto Corte Marziale",
+            "author": "Rachel Portman",
+            "original_title": "Hart's War",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2853/sotto-corte-marziale"
+        },
+        "2854": {
+            "title": "A torto o a ragione",
+            "author": "Artisti AA.VV.",
+            "original_title": "Taking Sides",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2854/a-torto-o-a-ragione"
+        },
+        "2855": {
+            "title": "The Scorpion King",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2855/the-scorpion-king"
+        },
+        "2857": {
+            "title": "Casablanca",
+            "author": "Max Steiner",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2857/casablanca"
+        },
+        "2858": {
+            "title": "Amadeus - Collector's Edition",
+            "author": "W.A. Mozart, A, Salieri, Artisti AA.VV.",
+            "original_title": "W.A. Mozart",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2858/amadeus-collector-s-edition"
+        },
+        "2859": {
+            "title": "Lolita (Versione Integrale)",
+            "author": "Nelson Riddle, Bob Harris",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2859/lolita-versione-integrale"
+        },
+        "2860": {
+            "title": "Casomai",
+            "author": "Pivio, Aldo De Scalzi",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2860/casomai"
+        },
+        "2861": {
+            "title": "Intrigo Internazionale (Edizione Rimasterizzata)",
+            "author": "Bernard Hermann",
+            "original_title": "North by Northwest",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2861/intrigo-internazionale-edizione-rimasterizzata"
+        },
+        "2862": {
+            "title": "Jay and Silent Bob Strike Back",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2862/jay-and-silent-bob-strike-back"
+        },
+        "2864": {
+            "title": "Long Walk Home: Music from the Rabbit-Proof Fence",
+            "author": "Peter Gabriel",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2864/long-walk-home-music-from-the-rabbit-proof-fence"
+        },
+        "2865": {
+            "title": "Windtalkers",
+            "author": "James Horner",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2865/windtalkers"
+        },
+        "2866": {
+            "title": "Scooby Doo",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2866/scooby-doo"
+        },
+        "2867": {
+            "title": "Shaft",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2867/shaft"
+        },
+        "2896": {
+            "title": "Falange Armata",
+            "author": "Carlo Lucarelli",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2896/falange-armata"
+        },
+        "2897": {
+            "title": "Lo scrittore fantasma",
+            "author": "Philip Roth",
+            "original_title": "The ghost writer",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2897/lo-scrittore-fantasma"
+        },
+        "2898": {
+            "title": "Oggetto quasi",
+            "author": "Jos\u00e9 Saramago",
+            "original_title": "Objecto quase",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2898/oggetto-quasi"
+        },
+        "2899": {
+            "title": "Il mistero di lord Listerdale e altre storie",
+            "author": "Agatha Christie",
+            "original_title": "The Listerdale Mystery",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2899/il-mistero-di-lord-listerdale-e-altre-storie"
+        },
+        "2900": {
+            "title": "Aigam Magia",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2900/aigam-magia"
+        },
+        "2912": {
+            "title": "Blade 2",
+            "author": "Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2912/blade-2"
+        },
+        "2929": {
+            "title": "Film Music - The Best Of",
+            "author": "Ennio Morricone",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2929/film-music-the-best-of"
+        },
+        "2956": {
+            "title": "Peter Pan 2 - Return to Neverland",
+            "author": "Joel McNeely",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2956/peter-pan-2-return-to-neverland"
+        },
+        "2957": {
+            "title": "1 giant leap",
+            "author": "Duncan Bridgeman, Jamie Catto",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2957/1-giant-leap"
+        },
+        "2958": {
+            "title": "35mm",
+            "author": "The best of Nicola Piovani",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/2958/35mm"
+        },
+        "3018": {
+            "title": "Il salmone del dubbio",
+            "author": "Douglas Adams",
+            "original_title": "The Salmon of Doubt",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3018/il-salmone-del-dubbio"
+        },
+        "3019": {
+            "title": "Rapporto di minoranza e altri racconti",
+            "author": "Philip K. Dick",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3019/rapporto-di-minoranza-e-altri-racconti"
+        },
+        "3020": {
+            "title": "Mater Terribilis",
+            "author": "Valerio Evangelisti",
+            "original_title": "",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3020/mater-terribilis"
+        },
+        "3021": {
+            "title": "Concerto per archi e canguro",
+            "author": "Jonathan Lethem",
+            "original_title": "Gun",
+            "italian_publish_year": "2002",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3021/concerto-per-archi-e-canguro"
+        },
+        "3022": {
+            "title": "In cerca",
+            "author": "Geoff Dyer",
+            "original_title": "The Search",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3022/in-cerca"
+        },
+        "3031": {
+            "title": "Pinocchio",
+            "author": "Nicola Piovani",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3031/pinocchio"
+        },
+        "3044": {
+            "title": "8 donne e un mistero",
+            "author": "Krishna Levy",
+            "original_title": "8 femmes",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3044/8-donne-e-un-mistero"
+        },
+        "3045": {
+            "title": "Red Dragon",
+            "author": "Danny Elfman",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3045/red-dragon"
+        },
+        "3052": {
+            "title": "The Road to Perdition",
+            "author": "Era mio padre",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3052/the-road-to-perdition"
+        },
+        "3177": {
+            "title": "8 mile",
+            "author": "Eminem, Artisti AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3177/8-mile"
+        },
+        "3178": {
+            "title": "The Big Blue",
+            "author": "Eric Serra",
+            "original_title": "Le grand blue",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3178/the-big-blue"
+        },
+        "3179": {
+            "title": "Il popolo migratore",
+            "author": "Bruno Coulais",
+            "original_title": "Traveling birds",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3179/il-popolo-migratore"
+        },
+        "3180": {
+            "title": "Spirit",
+            "author": "Stallion of the Cimarron",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3180/spirit"
+        },
+        "3181": {
+            "title": "007 La morte pu\u00f2 attendere",
+            "author": "David Arnold",
+            "original_title": "Die Another Day",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3181/007-la-morte-puo-attendere"
+        },
+        "3197": {
+            "title": "L'Ombra di Ender",
+            "author": "Orson Scoot Card",
+            "original_title": "Ender's shadow",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/3197/l-ombra-di-ender"
+        }
+    },
+    "author_books": {
+        "20 Superstar Hits": [
+            2843
+        ],
+        "A.C.Clarke e Stephen Baxter": [
+            1050
+        ],
+        "AA.VV.": [
+            1083,
+            1157,
+            1291,
+            1353,
+            1356,
+            1888,
+            1889,
+            2560,
+            2900
+        ],
+        "Adalberto Cersosimo": [
+            1055
+        ],
+        "Agatha Christie": [
+            2899
+        ],
+        "Alan D. Altieri": [
+            2261
+        ],
+        "Alan Gordon": [
+            1664
+        ],
+        "Alda Teodorani": [
+            2699
+        ],
+        "Alessandro Vietti": [
+            1025
+        ],
+        "Andrea Carlo Cappi e Edward Coffrini Dell'Orto": [
+            1019
+        ],
+        "Andreas Eschbach": [
+            1236,
+            2507
+        ],
+        "Angelo Badalamenti": [
+            2822
+        ],
+        "Anita Shreve": [
+            1891
+        ],
+        "Artisti AA.VV.": [
+            1945,
+            1946,
+            1949,
+            1950,
+            1952,
+            1953,
+            1955,
+            2817,
+            2819,
+            2824,
+            2826,
+            2830,
+            2834,
+            2835,
+            2837,
+            2839,
+            2840,
+            2841,
+            2842,
+            2847,
+            2848,
+            2854,
+            2855,
+            2862,
+            2866,
+            2867,
+            2912
+        ],
+        "B. Akunin": [
+            2698
+        ],
+        "B. Akunin (Grigori Tchkhartichvil)": [
+            1680,
+            1890,
+            2000
+        ],
+        "Banana Yoshimoto": [
+            1999
+        ],
+        "Bernard Hermann": [
+            2861
+        ],
+        "Brian Herbert e Kevin J. Anderson": [
+            1011
+        ],
+        "Bruce Sterling": [
+            1070,
+            1081
+        ],
+        "Bruno Coulais": [
+            3179
+        ],
+        "C.J. Cherryh": [
+            1723
+        ],
+        "Carlo Lucarelli": [
+            2896
+        ],
+        "Carlos Eduardo Feiling": [
+            1498
+        ],
+        "Carter Burwell": [
+            1947
+        ],
+        "Claude Yelnick": [
+            1072
+        ],
+        "Claudio Asciuti": [
+            1007
+        ],
+        "Craig Armstrong": [
+            1954
+        ],
+        "Daniela Catelli": [
+            1082
+        ],
+        "Danny Elfman": [
+            3045
+        ],
+        "David Arnold": [
+            3181
+        ],
+        "David Brin": [
+            1044
+        ],
+        "Dean Koontz": [
+            2660
+        ],
+        "Dean Wesley Smith": [
+            1591
+        ],
+        "Diego Cugia": [
+            1998,
+            2422
+        ],
+        "Domenic Stansberry": [
+            1921
+        ],
+        "Don DeLillo": [
+            2731
+        ],
+        "Donato Altomare": [
+            1924
+        ],
+        "Dorothy Porter": [
+            2424
+        ],
+        "Douglas Adams": [
+            3018
+        ],
+        "Duncan Bridgeman, Jamie Catto": [
+            2957
+        ],
+        "Edgar Pangborn": [
+            2617
+        ],
+        "Edmund Cooper": [
+            2561
+        ],
+        "Edward Shearmur": [
+            2823
+        ],
+        "Elton John, Tim Rice, Mark Mancina": [
+            2852
+        ],
+        "Eminem, Artisti AA.VV.": [
+            3177
+        ],
+        "Ennio Morricone": [
+            2929
+        ],
+        "Era mio padre": [
+            3052
+        ],
+        "Eraldo Baldini": [
+            1420,
+            1566,
+            1736
+        ],
+        "Eric Serra": [
+            3178
+        ],
+        "Fabiana Redivo": [
+            1331,
+            1447
+        ],
+        "Fabien Perucca e G\u00e9rard Pouradier": [
+            1679
+        ],
+        "Fabio Giovannini": [
+            1237
+        ],
+        "Francesca Rispoli": [
+            1648
+        ],
+        "Franco Forte e Franco Clun": [
+            2505,
+            2506
+        ],
+        "Franco Forte e Luigi Pach\u00ec": [
+            2557
+        ],
+        "Franco Ricciardiello": [
+            2671
+        ],
+        "Friedrich D\u00fcrrenmatt": [
+            1734
+        ],
+        "Gene Brewer": [
+            2356
+        ],
+        "Geoff Dyer": [
+            3022
+        ],
+        "Gianfranco de Turris": [
+            2727
+        ],
+        "Gianni Padoan": [
+            1922
+        ],
+        "Giovanna Carboni": [
+            2357
+        ],
+        "Giuliana Conforto": [
+            2421
+        ],
+        "Giuliano Fiocco": [
+            1451
+        ],
+        "Gordiano Lupi": [
+            1267,
+            2354
+        ],
+        "Greg Bear": [
+            1665
+        ],
+        "Greg Egan": [
+            1997
+        ],
+        "Gregory Benford": [
+            1590
+        ],
+        "Hal Hellman": [
+            1169
+        ],
+        "Hans Zimmer": [
+            2836
+        ],
+        "Harry Gregson Williams": [
+            1948
+        ],
+        "Henry Rider Haggard": [
+            2419
+        ],
+        "Howard Shore / Enya": [
+            1957
+        ],
+        "Hy Ruchlis": [
+            1330
+        ],
+        "Iain Banks": [
+            1499
+        ],
+        "Iain M. Banks": [
+            2052
+        ],
+        "Ian M. Banks": [
+            1448
+        ],
+        "Ian Watson": [
+            2080
+        ],
+        "Isaac Asimov": [
+            2244
+        ],
+        "J.R.R. Tolkien": [
+            2417,
+            2619,
+            2620,
+            2621
+        ],
+        "J.T. LeRoy": [
+            2564
+        ],
+        "J.T. Leroy": [
+            1733
+        ],
+        "Jack Williamson": [
+            1646
+        ],
+        "James G. Ballard": [
+            1235,
+            1735
+        ],
+        "James Horner": [
+            2825,
+            2865
+        ],
+        "James Newton Howard": [
+            1956
+        ],
+        "James Oliver Curwood": [
+            2203
+        ],
+        "Jean-Marc Ligny": [
+            1887,
+            2126
+        ],
+        "Jerry Goldsmith": [
+            2821
+        ],
+        "Joan D. Vinge": [
+            2078
+        ],
+        "Joanne K. Rowling": [
+            2093
+        ],
+        "Joe R.Lansdale": [
+            2349
+        ],
+        "Joel McNeely": [
+            2956
+        ],
+        "John A. Keel": [
+            2696
+        ],
+        "John Barry": [
+            1951
+        ],
+        "John Marco": [
+            1073
+        ],
+        "John Shirley": [
+            2204
+        ],
+        "John Williams": [
+            1958
+        ],
+        "Jonathan Lethem": [
+            1411,
+            1449,
+            3021
+        ],
+        "Joseph H. Rosny": [
+            2508
+        ],
+        "Jos\u00e9 Saramago": [
+            2749,
+            2898
+        ],
+        "K. W. Jeter": [
+            1329
+        ],
+        "K.J. Parker": [
+            1694
+        ],
+        "Kevin J. Anderson": [
+            2558
+        ],
+        "Krishna Levy": [
+            3044
+        ],
+        "Kurt Vonnegut jr.": [
+            1054
+        ],
+        "L. Sprague de Camp & Christopher Stasheff": [
+            1069
+        ],
+        "Larry Mc Caffery": [
+            1293
+        ],
+        "Laura Iuorio": [
+            1592
+        ],
+        "Lawrence Sutin": [
+            2128
+        ],
+        "Lester Del Rey": [
+            1509,
+            1517
+        ],
+        "L\u00e9o Malet": [
+            1923,
+            2566
+        ],
+        "Luca Masali": [
+            2658
+        ],
+        "Lucio Trevisan": [
+            2348
+        ],
+        "Marco Vallarino": [
+            1051
+        ],
+        "Margaret Atwood": [
+            2202
+        ],
+        "Mark Isham, Artisti AA.VV.": [
+            2828
+        ],
+        "Mark Leyner": [
+            1450
+        ],
+        "Martyn Bedford": [
+            2170
+        ],
+        "Massimo Mongai": [
+            1008
+        ],
+        "Matt Ruff": [
+            1037
+        ],
+        "Max Steiner": [
+            2857
+        ],
+        "Michael Crichton": [
+            1041,
+            2351
+        ],
+        "Michael Danna": [
+            2820
+        ],
+        "Michel Houellebecq": [
+            1622
+        ],
+        "Motor": [
+            1510,
+            1511
+        ],
+        "Neal Stephenson": [
+            1725
+        ],
+        "Neil Gaiman": [
+            1623,
+            2659
+        ],
+        "Neil Gaiman, Charles Vess": [
+            2263
+        ],
+        "Neil Gaiman, Yoshitaka Amano": [
+            2262
+        ],
+        "Nelson Riddle, Bob Harris": [
+            2859
+        ],
+        "Nicola Piovani": [
+            3031
+        ],
+        "Nicoletta Vallorani": [
+            2695
+        ],
+        "Noah Hawley": [
+            2299
+        ],
+        "Ornella Lepre": [
+            2618
+        ],
+        "Orson Scoot Card": [
+            3197
+        ],
+        "P. K. Dick": [
+            1419
+        ],
+        "P. K. Dick e R. Zelazny": [
+            1647
+        ],
+        "Patrick  S\u00fcskind": [
+            1071
+        ],
+        "Patrick Doyle": [
+            2831
+        ],
+        "Peter Gabriel": [
+            2864
+        ],
+        "Phil Patton": [
+            1886
+        ],
+        "Philip Jose Farmer": [
+            2194
+        ],
+        "Philip K. Dick": [
+            1292,
+            1328,
+            1357,
+            1365,
+            1387,
+            1452,
+            2245,
+            2295,
+            2296,
+            2297,
+            2298,
+            2353,
+            3019
+        ],
+        "Philip Roth": [
+            2897
+        ],
+        "Piergiorgio Nicolazzini": [
+            2729
+        ],
+        "Pierre Boulle": [
+            1519
+        ],
+        "Pivio, Aldo De Scalzi": [
+            2860
+        ],
+        "Rachel Portman": [
+            2853
+        ],
+        "Randy Newman": [
+            2832
+        ],
+        "Ray Bradbury": [
+            2247
+        ],
+        "Raymond F. Jones": [
+            2622
+        ],
+        "Renato Pestriniero": [
+            2559
+        ],
+        "Riccardo Coltri": [
+            1518
+        ],
+        "Robert Bloch": [
+            2355
+        ],
+        "Robert Charles Wilson": [
+            1577
+        ],
+        "Robert J. Sawyer": [
+            2201
+        ],
+        "Robert Miall": [
+            1064
+        ],
+        "Roberto Pace": [
+            2423
+        ],
+        "Roberto Perego": [
+            1020
+        ],
+        "Rod Serling": [
+            1575,
+            2730
+        ],
+        "Roland C. Wagner": [
+            1052
+        ],
+        "Rudy Rucker": [
+            2077
+        ],
+        "S.D. Perry": [
+            2079
+        ],
+        "Salman Rushdie": [
+            2623
+        ],
+        "Seamus Heaney": [
+            2624
+        ],
+        "Sebastiano Vassalli": [
+            2728
+        ],
+        "Serge Lehman": [
+            1077,
+            2127
+        ],
+        "Sergio Basile": [
+            2418
+        ],
+        "Stallion of the Cimarron": [
+            3180
+        ],
+        "Stefano Benni": [
+            2562
+        ],
+        "Stephani Danell Perry": [
+            1724
+        ],
+        "Stephen King": [
+            1681
+        ],
+        "Stephen King & Peter Straub": [
+            2352
+        ],
+        "T. Coraghessan Boyle": [
+            2750
+        ],
+        "Terence Blanchard": [
+            1943
+        ],
+        "Teresa Regna": [
+            2246
+        ],
+        "Tess Gerritsen": [
+            1682
+        ],
+        "The 20Th Anniversary": [
+            2844
+        ],
+        "The best of Nicola Piovani": [
+            2958
+        ],
+        "Thomas M. Disch": [
+            1386
+        ],
+        "Tim LaHaye, Jerry B. Jenkins": [
+            1053
+        ],
+        "Tim Powers": [
+            1621
+        ],
+        "Tom Baker": [
+            2563
+        ],
+        "Valentino Compassi": [
+            2420
+        ],
+        "Valerio Evangelisti": [
+            1238,
+            2657,
+            2732,
+            3020
+        ],
+        "Vincenzo Tagliasco": [
+            1364
+        ],
+        "W.A. Mozart, A, Salieri, Artisti AA.VV.": [
+            2858
+        ],
+        "Walter J. Williams": [
+            1063
+        ],
+        "William Golding": [
+            2565
+        ],
+        "William T. Vollmann": [
+            1678
+        ],
+        "Wu Ming 5": [
+            2350
+        ],
+        "Yann Tiersen": [
+            1944
+        ],
+        "Yukio Mishima": [
+            2697
+        ]
+    }
+}

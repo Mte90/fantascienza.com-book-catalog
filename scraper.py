@@ -9,48 +9,26 @@ import re
 import time
 import concurrent.futures
 
-MAX_THREADS = 6 # Numero massimo di thread
+MAX_THREADS = 10 # Numero massimo di thread
 start_from = 1006 # Il primo libro è a questo id
 path = './books.json'
 
-if not os.path.exists(path):
-    print('Nuovo DB in corso')
-    books = {'list':{},'author_books':{}}
-    with open(path, 'w') as outfile:
+def finally_save(path, books, mode):
+    with open(path, mode) as outfile:
         json.dump(books, outfile, indent=4)
         outfile.close()
-else:
-    print('Aggiornamento DB dall\'ultima esecuzione')
-    with open(path, 'r') as outfile:
-        books = json.load(outfile)
-        outfile.close()
-    if 'list' in books and len(books['list']):
-        start_from = int(natsorted(books['list'].keys())[-1])
-
-data = requests.get('https://www.fantascienza.com/')
-soup = BeautifulSoup(data.content, 'html.parser')
-last_article = soup.select_one('.home-main-block a')
-last_article_id = int(last_article['href'].split('/')[3]) - start_from
-
-print('Totale articoli da elaborare: ' + str(last_article_id))
-print('Ultimo articolo elaborato: ' + str(start_from))
-
-if int(last_article_id) < int(start_from):
-    last_article_id = last_article_id + start_from
 
 def save(path, books):
     books['author_books'] = dict(natsorted(books['author_books'].items()))
     books['list'] = dict(natsorted(books['list'].items()))
-    with open(path, 'r+') as outfile:
-        print('Aggiorno il DB locale')
-        json.dump(books, outfile, indent=4)
-        outfile.close()
+    print('Aggiorno il DB locale')
+    finally_save(path, books, 'w')
 
 def parse_page(article):
     # Per calcolare la posizione dell'autore
-    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica']
-    genere_ignorare = ['colonna sonora', 'antologia brani']
-    editore_ignorare = ['Panini Comics', 'Planeta De Agostini', 'Sergio Bonelli Editore']
+    generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema']
+    editore_ignorare = ['Panini Comics', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe']
+    sezioni_ignorare = ['Durata', 'Brani', 'Sviluppatore', 'Episodio', 'Regia']
 
     URL = f'https://www.fantascienza.com/' + str(article)
 
@@ -60,30 +38,22 @@ def parse_page(article):
         print(e + ':' + URL)
         return
 
+    if any('<label>' + x + '</label>' in str(data.content) for x in sezioni_ignorare):
+        return
+
     soup = BeautifulSoup(data.content, 'html.parser')
     blog_review = soup.select_one('.blog-style .column4')
 
     if blog_review != None:
-        is_movie = soup.select_one('.blog-style .column4.scheda label:nth-of-type(1)')
-        is_soundtrack = soup.select_one('.blog-style .column4 p.genere')
         is_editore_ignore = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(1)')
+        is_editore_ignore2 = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)')
         is_broken = soup.select_one('.blog-style .column4 p.origine')
         is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
-        is_duration = soup.find_all('label', 'Durata')
-        is_songs = soup.find_all('label', 'Brani')
-        is_dev = soup.find_all('label', 'Sviluppatore')
-        is_episode = soup.find_all('label', 'Episodio')
-        if is_movie != None and is_movie.text == 'Regia':
-            return
-        if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare):
-            return
-        if is_soundtrack != None and any(x in is_soundtrack.text for x in genere_ignorare):
+        if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare) or is_editore_ignore2 != None and any(x in is_editore_ignore2.text for x in editore_ignorare):
             return
         if is_broken2 != None and is_broken2.text == 'colore':
             return
         if is_broken != None and (is_broken.text == ', ' or is_broken.text == ''):
-            return
-        if is_duration != [] or is_dev != [] or is_songs != [] or is_episode != []:
             return
 
         isbn = ''
@@ -154,7 +124,7 @@ def parse_page(article):
         if '(' in original_title:
             original_title = ''
 
-        if author == '' or "\t\t" in author:
+        if author == '' or "\t\t" in author or 'Artisti AA.VV.' in author:
             return
 
         # Normalizziamo i dati
@@ -162,6 +132,10 @@ def parse_page(article):
         author = author.replace('aa.vv.','AA.VV.')
         author = author.replace('Autori Vari','AA.VV.')
         author = author.replace('Vari','AA.VV.')
+        author = author.replace('R. R.','R.R.')
+        author = author.replace(' -',',')
+        author = author.replace(' /',',')
+        author = author.replace(' &',',')
 
         print("%d, scheda trovata!" % article)
 
@@ -178,6 +152,29 @@ def parse_page(article):
             books['author_books'][author].append(article)
         else:
             books['author_books'][author] = [article]
+
+if not os.path.exists(path):
+    print('Nuovo DB in corso')
+    books = {'list':{},'author_books':{}}
+    finally_save(path, books, 'w')
+else:
+    print('Aggiornamento DB dall\'ultima esecuzione')
+    with open(path, 'r') as outfile:
+        books = json.load(outfile)
+        outfile.close()
+    if 'list' in books and len(books['list']):
+        start_from = int(natsorted(books['list'].keys())[-1])
+
+data = requests.get('https://www.fantascienza.com/')
+soup = BeautifulSoup(data.content, 'html.parser')
+last_article = soup.select_one('.home-main-block a')
+last_article_id = int(last_article['href'].split('/')[3]) - start_from
+
+print('Totale articoli da elaborare: ' + str(last_article_id))
+print('Ultimo articolo elaborato: ' + str(start_from))
+
+if int(last_article_id) < int(start_from):
+    last_article_id = last_article_id + start_from
 
 saved = False
 for article in range(start_from + 1, int(last_article_id)):
