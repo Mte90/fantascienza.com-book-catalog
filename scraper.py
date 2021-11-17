@@ -27,6 +27,7 @@ def save(path, books):
 def parse_page(article):
     # Per calcolare la posizione dell'autore
     generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema']
+    genere_ignorare = ['colonna sonora', 'antologia brani']
     editore_ignorare = ['Panini Comics', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe']
     sezioni_ignorare = ['Durata', 'Brani', 'Sviluppatore', 'Episodio', 'Regia']
 
@@ -45,10 +46,13 @@ def parse_page(article):
     blog_review = soup.select_one('.blog-style .column4')
 
     if blog_review != None:
+        is_soundtrack = soup.select_one('.blog-style .column4 p.genere')
         is_editore_ignore = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(1)')
         is_editore_ignore2 = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)')
         is_broken = soup.select_one('.blog-style .column4 p.origine')
         is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
+        if is_soundtrack != None and any(x in is_soundtrack.text for x in genere_ignorare):
+            return
         if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare) or is_editore_ignore2 != None and any(x in is_editore_ignore2.text for x in editore_ignorare):
             return
         if is_broken2 != None and is_broken2.text == 'colore':
@@ -124,7 +128,7 @@ def parse_page(article):
         if '(' in original_title:
             original_title = ''
 
-        if author == '' or "\t\t" in author or 'Artisti AA.VV.' in author:
+        if author == '' or "\t\t" in author or 'Artisti AA.VV.' in author or 'Artisti Vari' in author:
             return
 
         # Normalizziamo i dati

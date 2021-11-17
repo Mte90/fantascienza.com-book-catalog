@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+import sys
 import json
 from datetime import date
 
@@ -8,7 +9,7 @@ path = './books.json'
 
 if not os.path.exists(path):
     print('DB mancante, lanciare scraper.py')
-    os.exit()
+    sys.exit()
 else:
     with open(path, 'r') as outfile:
         books = json.load(outfile)
