@@ -28,7 +28,7 @@ def parse_page(article):
     # Per calcolare la posizione dell'autore
     generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema']
     genere_ignorare = ['colonna sonora', 'antologia brani']
-    editore_ignorare = ['Panini Comics', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe']
+    editore_ignorare = ['Panini', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe', 'Varèse Sarabande', 'Warner', 'Minus', 'DreamWorks', 'Marvel', 'Emi', 'Cagliostro']
     sezioni_ignorare = ['Durata', 'Brani', 'Sviluppatore', 'Episodio', 'Regia']
 
     URL = f'https://www.fantascienza.com/' + str(article)
