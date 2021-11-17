@@ -15,9 +15,10 @@ jobs:
       - name: Setup Python Version
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
+          python-version: 3.9
+        cache: 'pip'
       - name: Install Python dependencies
-        run: python -m pip install beautifulsoup4 natsort
+        run: pip install bs4 natsort
       - name: Build
         run: |-
           ./scraper.py && ./index.py

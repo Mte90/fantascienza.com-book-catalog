@@ -16,6 +16,9 @@ path = './books.json'
 if not os.path.exists(path):
     print('Nuovo DB in corso')
     books = {'list':{},'author_books':{}}
+    with open(path, 'w') as outfile:
+        json.dump(books, outfile, indent=4)
+        outfile.close()
 else:
     print('Aggiornamento DB dall\'ultima esecuzione')
     with open(path, 'r') as outfile:
