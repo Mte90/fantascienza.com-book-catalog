@@ -29,10 +29,10 @@ class Fantascienza_Scraper:
 
     async def parse_page(self, article, asyncio_semaphore):
         # Per calcolare la posizione dell'autore
-        generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema']
+        generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema', 'Fumettistico']
         genere_ignorare = ['colonna sonora', 'antologia brani']
-        editore_ignorare = ['Panini', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe', 'Varèse Sarabande', 'Warner', 'Minus', 'DreamWorks', 'Marvel', 'Emi', 'Cagliostro']
-        sezioni_ignorare = ['Durata', 'Brani', 'Sviluppatore', 'Episodio', 'Regia']
+        editore_ignorare = ['Panini', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe', 'Varèse Sarabande', 'Warner', 'Minus', 'DreamWorks', 'Marvel', 'Emi', 'Cagliostro', 'Varése Sarabande', 'Comics', 'Magic Press', 'MagicPress']
+        sezioni_ignorare = ['Durata', 'Brani', 'Sviluppatore', 'Episodio', 'Regia', 'Sceneggiatura']
 
         URL = f'https://www.fantascienza.com/' + str(article)
 
@@ -56,11 +56,12 @@ class Fantascienza_Scraper:
                 is_soundtrack = soup.select_one('.blog-style .column4 p.genere')
                 is_editore_ignore = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(1)')
                 is_editore_ignore2 = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)')
+                is_editore_ignore3 = soup.select_one('.blog-style .column4:nth-of-type(2) p:nth-of-type(2)')
                 is_broken = soup.select_one('.blog-style .column4 p.origine')
                 is_broken2 = soup.select_one('.blog-style .column4 p.origine .label')
                 if is_soundtrack != None and any(x in is_soundtrack.text for x in genere_ignorare):
                     return
-                if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare) or is_editore_ignore2 != None and any(x in is_editore_ignore2.text for x in editore_ignorare):
+                if is_editore_ignore != None and any(x in is_editore_ignore.text for x in editore_ignorare) or is_editore_ignore2 != None and any(x in is_editore_ignore2.text for x in editore_ignorare) or is_editore_ignore3 != None and any(x in is_editore_ignore3.text for x in editore_ignorare):
                     return
                 if is_broken2 != None and is_broken2.text == 'colore':
                     return
@@ -139,20 +140,30 @@ class Fantascienza_Scraper:
 
                 # Normalizziamo i dati
                 author = author.replace('AA. VV.','AA.VV.')
+                author = author.replace('Vari(e)','AA.VV.')
                 author = author.replace('aa.vv.','AA.VV.')
                 author = author.replace('Aa.Vv.','AA.VV.')
                 author = author.replace('Autori Vari','AA.VV.')
                 author = author.replace('Vari','AA.VV.')
                 author = author.replace('R. R.','R.R.')
                 author = author.replace(' -',',')
+                author = author.replace(' E ',', ')
                 author = author.replace(' /',',')
+                author = author.replace(';',', ')
                 author = author.replace(' &',',')
+                author = author.replace('P. K. Dick','Philip K. Dick')
+                author = author.replace('Ursula K. Le Guin','Ursula Kroeber Le Guin')
+                author = author.replace('Robert A. Heinlein','Robert Anson Heinlein')
+                author = author.replace('A.C.Clarke','Arthur Charles Clarke')
+                author = author.replace('Arthur C. Clarke','Arthur Charles Clarke')
+                author = author.replace('Walter Tevis','Walter S. Tevis')
+                author = author.replace('Walther Tevis','Walter S. Tevis')
 
                 print("%d, scheda trovata!" % article)
 
                 self.books['list'][str(article)] = {
                     'title': soup.find('title').text,
-                    'author': author,
+                    'author': author.strip(),
                     'original_title': original_title.replace('\n','').strip(),
                     'italian_publish_year': italian_publish_year,
                     'isbn': isbn.replace('-',''),
