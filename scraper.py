@@ -18,7 +18,8 @@ class Fantascienza_Scraper:
 
     async def finally_save(self, mode):
         async with aiofiles.open(self.path, mode) as outfile:
-            outfile.write(json.dumps(self.books, indent=4))
+            await outfile.write(json.dumps(self.books, indent=4))
+            await outfile.flush()
 
     async def save(self):
         self.books['author_books'] = dict(natsorted(self.books['author_books'].items()))
@@ -39,7 +40,7 @@ class Fantascienza_Scraper:
             try:
                 async with aiohttp.ClientSession() as session:
                     async with session.get(URL) as data:
-                        URL = data.url
+                        URL = str(data.url)
                         data = await data.text()
             except Exception as e:
                 print(str(e) + ':' + URL)
@@ -96,7 +97,6 @@ class Fantascienza_Scraper:
                         isbn = ''
 
                     if len(italian_publish_year) > 4 or italian_publish_year == '':
-                        italian_publish_year = soup.select_one('.blog-style .column4:nth-of-type(3) p:nth-of-type(2)').text
                         isbn = ''
 
                     if author == 'Romanzo Storico':
@@ -140,6 +140,7 @@ class Fantascienza_Scraper:
                 # Normalizziamo i dati
                 author = author.replace('AA. VV.','AA.VV.')
                 author = author.replace('aa.vv.','AA.VV.')
+                author = author.replace('Aa.Vv.','AA.VV.')
                 author = author.replace('Autori Vari','AA.VV.')
                 author = author.replace('Vari','AA.VV.')
                 author = author.replace('R. R.','R.R.')
@@ -187,7 +188,7 @@ class Fantascienza_Scraper:
             last_article_id = last_article_id + self.start_from
 
         jobs = []
-        asyncio_semaphore = asyncio.BoundedSemaphore(10)
+        asyncio_semaphore = asyncio.BoundedSemaphore(20)
         for article in range(self.start_from + 1, int(last_article_id)):
             jobs.append(asyncio.ensure_future(self.parse_page(article, asyncio_semaphore)))
         await asyncio.gather(*jobs)
