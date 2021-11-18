@@ -16,9 +16,9 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
-        cache: 'pip'
+          cache: 'pip'
       - name: Install Python dependencies
-        run: pip install bs4 natsort
+        run: pip install bs4 natsort aiohttp aiofiles asyncio
       - name: Build
         run: |-
           ./scraper.py && ./index.py
