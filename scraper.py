@@ -12,7 +12,6 @@ import aiofiles
 import requests
 
 class Fantascienza_Scraper:
-    MAX_THREADS = 10 # Numero massimo di thread
     start_from = 1006 # Il primo libro è a questo id
     path = './books.json'
 
