@@ -28,9 +28,9 @@ class Fantascienza_Scraper:
 
     async def parse_page(self, article, asyncio_semaphore):
         # Per calcolare la posizione dell'autore
-        generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema', 'Fumettistico']
+        generi = ['Horror', 'Fantascienza', 'Giallo', 'Saggistica', 'Thriller', 'Noir', 'Fantasy', 'Fantastico', 'Drammatico', 'Azione', 'Avventura', 'Illustrazione', 'Divulgazione scientifica', 'Cinema', 'Fumettistico', 'Romanzo Storico']
         genere_ignorare = ['colonna sonora', 'antologia brani']
-        editore_ignorare = ['Panini', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe', 'Varèse Sarabande', 'Warner', 'Minus', 'DreamWorks', 'Marvel', 'Emi', 'Cagliostro', 'Varése Sarabande', 'Comics', 'Magic Press', 'MagicPress']
+        editore_ignorare = ['Panini', 'Planeta De Agostini', 'Sergio Bonelli Editore', 'Silva Screen', 'Sony', 'Walt Disney Italia', 'Lo Stregatto', 'Music', 'RW Edizioni', 'Decca', 'Audioglobe', 'Varèse Sarabande', 'Warner', 'Minus', 'DreamWorks', 'Marvel', 'Emi', 'Cagliostro', 'Varése Sarabande', 'Comics', 'Magic Press', 'MagicPress', 'Walt Disney']
         sezioni_ignorare = ['Durata', 'Brani', 'Sviluppatore', 'Episodio', 'Regia', 'Sceneggiatura']
 
         URL = f'https://www.fantascienza.com/' + str(article)
@@ -146,7 +146,7 @@ class Fantascienza_Scraper:
                 author = author.replace('Vari','AA.VV.')
                 author = author.replace('R. R.','R.R.')
                 author = author.replace(' -',',')
-                author = author.replace(' E ',', ')
+                author = author.replace(' e ',', ')
                 author = author.replace(' /',',')
                 author = author.replace(';',', ')
                 author = author.replace(' &',',')
@@ -156,13 +156,26 @@ class Fantascienza_Scraper:
                 author = author.replace('A.C.Clarke','Arthur Charles Clarke')
                 author = author.replace('Arthur C. Clarke','Arthur Charles Clarke')
                 author = author.replace('Walter Tevis','Walter S. Tevis')
-                author = author.replace('Walther Tevis','Walter S. Tevis')
+                author = author.replace('Frederick Pohl','Frederik Pohl')
+                author = author.replace('J.T. LeRoy','J.T. Leroy')
+                author = author.replace('James G. Ballard','James Graham Ballard')
+                author = author.replace('J.K. Rowling','Joanne K. Rowling')
+                author = author.replace('Kurt Vonnegut jr.','Kurt Vonnegut jr')
+                author = author.replace('Kurt Vonnegut jr','Kurt Vonnegut')
+                author = author.replace('Larry Mc Caffery','Larry McCaffery')
+                author = author.replace('Orson Scoot Card','Orson Scott Card')
+                author = author.replace('Philip Jose Farmer','Philip José Farmer')
+                author = author.replace('Robert E. Howard', 'Robert Ervin Howard')
+                author = author.replace('Walter J. Williams', 'Walter Jon Williams')
+                author = author.replace('Alfred Elton van Vogt', 'Alfred Elton Van Vogt')
+                author = author.replace('Alfred E. Van Vogt', 'Alfred Elton Van Vogt')
+                author = author.strip()
 
                 print("%d, scheda trovata!" % article)
 
                 self.books['list'][str(article)] = {
                     'title': soup.find('title').text,
-                    'author': author.strip(),
+                    'author': author,
                     'original_title': original_title.replace('\n','').strip(),
                     'italian_publish_year': italian_publish_year,
                     'isbn': isbn.replace('-',''),
