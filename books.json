@@ -1882,7 +1882,7 @@
         },
         "4189": {
             "title": "Slan",
-            "author": "Alfred Elton Van Vogt",
+            "author": "Alfred Elton van Vogt",
             "original_title": "Slan",
             "italian_publish_year": "",
             "isbn": "",
@@ -4098,7 +4098,7 @@
         },
         "11826": {
             "title": "I ribelli dei 50 soli",
-            "author": "Alfred Elton Van Vogt",
+            "author": "Alfred Elton van Vogt",
             "original_title": "The Mixed Men",
             "italian_publish_year": "",
             "isbn": "",
@@ -6109,10 +6109,12 @@
             17575
         ],
         "Alfred Elton Van Vogt": [
-            4189,
-            11826,
             13104,
             13725
+        ],
+        "Alfred Elton van Vogt": [
+            4189,
+            11826
         ],
         "Alfredo Mogavero": [
             13735
@@ -6850,8 +6852,8 @@
         "J.R.R. Tolkien": [
             2417,
             2621,
-            2620,
-            2619
+            2619,
+            2620
         ],
         "J.T. Leroy": [
             1733,
@@ -7246,8 +7248,8 @@
             9998
         ],
         "Motor": [
-            1511,
-            1510
+            1510,
+            1511
         ],
         "Nancy Cress": [
             12166
@@ -7339,9 +7341,9 @@
             1419,
             1452,
             2245,
+            2296,
             2295,
             2297,
-            2296,
             2298,
             2353,
             3019,
@@ -7606,8 +7608,8 @@
         ],
         "Terry Brooks": [
             4451,
-            4529,
-            4530
+            4530,
+            4529
         ],
         "Terry Moore": [
             11779

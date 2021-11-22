@@ -156,7 +156,6 @@ class Fantascienza_Scraper:
                 author = author.replace('A.C.Clarke','Arthur Charles Clarke')
                 author = author.replace('Arthur C. Clarke','Arthur Charles Clarke')
                 author = author.replace('Walter Tevis','Walter S. Tevis')
-                author = author.replace('Frederick Pohl','Frederik Pohl')
                 author = author.replace('J.T. LeRoy','J.T. Leroy')
                 author = author.replace('James G. Ballard','James Graham Ballard')
                 author = author.replace('J.K. Rowling','Joanne K. Rowling')
@@ -167,8 +166,7 @@ class Fantascienza_Scraper:
                 author = author.replace('Philip Jose Farmer','Philip José Farmer')
                 author = author.replace('Robert E. Howard', 'Robert Ervin Howard')
                 author = author.replace('Walter J. Williams', 'Walter Jon Williams')
-                author = author.replace('Alfred Elton van Vogt', 'Alfred Elton Van Vogt')
-                author = author.replace('Alfred E. Van Vogt', 'Alfred Elton Van Vogt')
+                author = author.replace('Alfred E. Van Vogt', 'Alfred Elton van Vogt')
                 author = author.strip()
 
                 print("%d, scheda trovata!" % article)
