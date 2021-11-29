@@ -17,7 +17,7 @@ jobs:
           python-version: 3.9
           cache: 'pip'
       - name: Install Python dependencies
-        run: pip install bs4 natsort aiohttp aiofiles asyncio
+        run: pip install beautifulsoup4 natsort aiohttp aiofiles asyncio
       - name: Build
         run: |-
           ./scraper.py && ./index.py
