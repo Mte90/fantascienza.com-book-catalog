@@ -6023,6 +6023,54 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/26195/solarpunk-come-ho-imparato-ad-amare-il-futuro"
+        },
+        "26485": {
+            "title": "Spin",
+            "author": "Robert Charles Wilson",
+            "original_title": "Spin",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/26485/spin"
+        },
+        "26609": {
+            "title": "Una Utopia moderna",
+            "author": "Herbert George Wells",
+            "original_title": "A Modern Utopia",
+            "italian_publish_year": "1990",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/26609/una-utopia-moderna"
+        },
+        "26776": {
+            "title": "Entanglement",
+            "author": "Vandana Singh",
+            "original_title": "Entaglement",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/26776/entanglement"
+        },
+        "27195": {
+            "title": "Obsolescenza programmata: Fantascienza contemporanea tedesca",
+            "author": "AA.VV.",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/27195/obsolescenza-programmata-fantascienza-contemporanea-tedesca"
+        },
+        "27408": {
+            "title": "I manga. Introduzione al fumetto giapponese",
+            "author": "Marco Pellitteri",
+            "original_title": "",
+            "italian_publish_year": "2021",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/27408/i-manga-introduzione-al-fumetto-giapponese"
+        },
+        "27416": {
+            "title": "2050 Quel che resta di noi",
+            "author": "Damiano Lotto, Lorenzo Davia",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/27416/2050-quel-che-resta-di-noi"
         }
     },
     "author_books": {
@@ -6039,7 +6087,8 @@
             6200,
             9275,
             10640,
-            12834
+            12834,
+            27195
         ],
         "Adalberto Cersosimo": [
             1055
@@ -6388,6 +6437,9 @@
         ],
         "Craig Shaw Gardner": [
             14679
+        ],
+        "Damiano Lotto, Lorenzo Davia": [
+            27416
         ],
         "Dan Brown": [
             5301,
@@ -6799,7 +6851,8 @@
             2419
         ],
         "Herbert George Wells": [
-            8543
+            8543,
+            26609
         ],
         "H\u00e9ctor German Oesterheld, Francisco Solano L\u00f3pez": [
             15428
@@ -7148,6 +7201,9 @@
         "Marco Minicangeli": [
             14131
         ],
+        "Marco Pellitteri": [
+            27408
+        ],
         "Marco Turini": [
             7998
         ],
@@ -7444,7 +7500,8 @@
             11512
         ],
         "Robert Charles Wilson": [
-            1577
+            1577,
+            26485
         ],
         "Robert Ervin Howard": [
             5515,
@@ -7672,7 +7729,8 @@
             4190
         ],
         "Vandana Singh": [
-            23220
+            23220,
+            26776
         ],
         "Vernor Vinge": [
             7106,

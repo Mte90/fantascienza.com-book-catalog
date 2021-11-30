@@ -142,6 +142,7 @@ class Fantascienza_Scraper:
                 author = author.replace('Vari(e)','AA.VV.')
                 author = author.replace('aa.vv.','AA.VV.')
                 author = author.replace('Aa.Vv.','AA.VV.')
+                author = author.replace('Aa. Vv.','AA.VV.')
                 author = author.replace('Autori Vari','AA.VV.')
                 author = author.replace('Vari','AA.VV.')
                 author = author.replace('R. R.','R.R.')
@@ -194,8 +195,8 @@ class Fantascienza_Scraper:
             with open(self.path, 'r') as outfile:
                 self.books = json.load(outfile)
                 outfile.close()
-            if 'list' in books and len(books['list']):
-                start_from = int(natsorted(self.books['list'].keys())[-1])
+            if 'list' in self.books and len(self.books['list']):
+                self.start_from = int(natsorted(self.books['list'].keys())[-1])
 
         data = requests.get('https://www.fantascienza.com/')
         soup = BeautifulSoup(data.content, 'html.parser')
