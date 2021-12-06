@@ -1,7 +1,10 @@
 name: Update weekly
-on:
-  schedule:
-    - cron: 0 10 * * 1
+on: push
+  #schedule:
+    #- cron: 0 10 * * 1
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   deploy:
@@ -10,20 +13,23 @@ jobs:
     
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
       - name: Setup Python Version
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
           cache: 'pip'
       - name: Install Python dependencies
-        run: pip install beautifulsoup4 natsort aiohttp aiofiles asyncio
+        run: |
+          pip install -r requirements.txt
       - name: Build
         run: |-
-          ./scraper.py && ./index.py
+          python ./scraper.py
+          python ./index.py
       - name: Commit and push if DB changed
         run: |-
-          git diff
           git config --global user.email "catalog-bot@example.com"
           git config --global user.name "catalog-bot"
           git diff --quiet || (git add ./*.json ./index.html && git commit -m "Updated DB")
