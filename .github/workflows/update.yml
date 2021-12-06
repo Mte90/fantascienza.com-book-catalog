@@ -1,7 +1,7 @@
 name: Update weekly
-on:
-  schedule:
-    - cron: 0 10 * * 1
+on: push
+  #schedule:
+    #- cron: 0 10 * * 1
 
 jobs:
   deploy:
@@ -17,7 +17,7 @@ jobs:
           python-version: 3.9
           cache: 'pip'
       - name: Install Python dependencies
-        run: pip install beautifulsoup4 natsort aiohttp aiofiles asyncio
+        run: pip install -r requirements.txt
       - name: Build
         run: |-
           ./scraper.py && ./index.py
