@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+import bs4, sys; print([requests.__version__, bs4.__version__, sys.version])
 from bs4 import BeautifulSoup
 from natsort import natsorted
 import os
