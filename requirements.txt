@@ -3,3 +3,4 @@ natsort
 aiohttp
 aiofiles
 asyncio
+requests
