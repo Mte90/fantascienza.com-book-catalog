@@ -1,7 +1,7 @@
 name: Update weekly
-on: push
-  #schedule:
-    #- cron: 0 10 * * 1
+on:
+  schedule:
+    - cron: 0 10 * * 1
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
