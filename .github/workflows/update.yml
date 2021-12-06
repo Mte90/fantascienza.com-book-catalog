@@ -3,6 +3,9 @@ on: push
   #schedule:
     #- cron: 0 10 * * 1
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   deploy:
     name: "Update"
@@ -11,6 +14,8 @@ jobs:
     steps:
       - name: "Checkout"
         uses: actions/checkout@v1
+        with:
+          ref: ${{ github.head_ref }}
       - name: Setup Python Version
         uses: actions/setup-python@v2
         with:
@@ -25,7 +30,6 @@ jobs:
           python ./index.py
       - name: Commit and push if DB changed
         run: |-
-          git diff
           git config --global user.email "catalog-bot@example.com"
           git config --global user.name "catalog-bot"
           git diff --quiet || (git add ./*.json ./index.html && git commit -m "Updated DB")
