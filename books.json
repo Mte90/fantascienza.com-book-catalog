@@ -6071,6 +6071,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/27416/2050-quel-che-resta-di-noi"
+        },
+        "27474": {
+            "title": "Fioriranno i meli su Marte",
+            "author": "Francesco Verso",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/27474/fioriranno-i-meli-su-marte"
         }
     },
     "author_books": {
@@ -6637,7 +6645,8 @@
         ],
         "Francesco Verso": [
             12380,
-            13060
+            13060,
+            27474
         ],
         "Francesco Verso, Fabio Fernandes": [
             26195
