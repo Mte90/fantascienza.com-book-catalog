@@ -1,4 +1,5 @@
 # Fantascienza.com Book Catalog
+[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)   
 
 Vedi l'elenco [online](http://mte90.tech/fantascienza.com-book-catalog/)!
 
