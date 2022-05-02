@@ -6079,6 +6079,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/27474/fioriranno-i-meli-su-marte"
+        },
+        "27845": {
+            "title": "La fisica del cambiamento climatico",
+            "author": "Lawrence M. Krauss",
+            "original_title": "The Physics of Climate Change",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/27845/la-fisica-del-cambiamento-climatico"
         }
     },
     "author_books": {
@@ -7128,7 +7136,8 @@
             1592
         ],
         "Lawrence M. Krauss": [
-            4143
+            4143,
+            27845
         ],
         "Lawrence Sutin": [
             2128
