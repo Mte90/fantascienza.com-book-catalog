@@ -6087,6 +6087,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/27845/la-fisica-del-cambiamento-climatico"
+        },
+        "28467": {
+            "title": "Astronavi",
+            "author": "Michele Tetro, Roberto Azzara",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/28467/astronavi"
         }
     },
     "author_books": {
@@ -7307,6 +7315,9 @@
         ],
         "Michel Houellebecq": [
             1622
+        ],
+        "Michele Tetro, Roberto Azzara": [
+            28467
         ],
         "Miguelanxo Prado": [
             8613
