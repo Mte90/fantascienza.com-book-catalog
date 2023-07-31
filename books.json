@@ -6095,6 +6095,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/28467/astronavi"
+        },
+        "29106": {
+            "title": "Cielo",
+            "author": "Piia Leino",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29106/cielo"
         }
     },
     "author_books": {
@@ -7461,6 +7469,9 @@
         ],
         "Pierre Magnan": [
             3676
+        ],
+        "Piia Leino": [
+            29106
         ],
         "Pivio, Aldo De Scalzi": [
             7628,
