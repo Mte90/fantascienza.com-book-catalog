@@ -6103,6 +6103,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/29106/cielo"
+        },
+        "29270": {
+            "title": "Fuga di morte",
+            "author": "Sheng Keyi",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29270/fuga-di-morte"
         }
     },
     "author_books": {
@@ -7647,6 +7655,9 @@
         ],
         "Sergio Basile": [
             2418
+        ],
+        "Sheng Keyi": [
+            29270
         ],
         "Shingo Tamai (Cristiano Brignola, Juri Guidi, Francesca Guidi, Nicola Della Lena Guidiccioni, Daniele Bordonaro)": [
             14680
