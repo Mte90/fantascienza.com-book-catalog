@@ -6111,6 +6111,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/29270/fuga-di-morte"
+        },
+        "29362": {
+            "title": "365",
+            "author": "Daniele Barbieri, Gianluca Cicinelli",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29362/365"
         }
     },
     "author_books": {
@@ -6500,6 +6508,9 @@
         ],
         "Daniela Catelli": [
             1082
+        ],
+        "Daniele Barbieri, Gianluca Cicinelli": [
+            29362
         ],
         "Daniele Barbieri, Riccardo Mancini": [
             9156
