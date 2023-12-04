@@ -6119,6 +6119,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/29362/365"
+        },
+        "29409": {
+            "title": "Le Rovine della Terra",
+            "author": "Christopher Hopper, J. N. Chaney",
+            "original_title": "Ruins of the Earth",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29409/le-rovine-della-terra"
         }
     },
     "author_books": {
@@ -6443,6 +6451,9 @@
         ],
         "Christopher Conlon": [
             15815
+        ],
+        "Christopher Hopper, J. N. Chaney": [
+            29409
         ],
         "Chuck Palahniuk": [
             5174,
