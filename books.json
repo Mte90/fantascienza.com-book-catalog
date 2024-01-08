@@ -6127,6 +6127,22 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/29409/le-rovine-della-terra"
+        },
+        "29485": {
+            "title": "Cos\u00ec si perde la guerra del tempo",
+            "author": "Amar El-Mohtar, Max Gladstone",
+            "original_title": "This Is How You Lose the Time War",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29485/cosi-si-perde-la-guerra-del-tempo"
+        },
+        "29486": {
+            "title": "Ritorno dall'universo",
+            "author": "Stanislaw Lem",
+            "original_title": "1960",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29486/ritorno-dall-universo"
         }
     },
     "author_books": {
@@ -6232,6 +6248,9 @@
         ],
         "Allen Mulherin Steele": [
             14432
+        ],
+        "Amar El-Mohtar, Max Gladstone": [
+            29485
         ],
         "Amedeo Balbi": [
             9798
@@ -7693,7 +7712,8 @@
         "Stanislaw Lem": [
             3908,
             5386,
-            7736
+            7736,
+            29486
         ],
         "Stanley G. Weinbaum": [
             15502
