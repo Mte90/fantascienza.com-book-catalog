@@ -6143,6 +6143,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/29486/ritorno-dall-universo"
+        },
+        "29558": {
+            "title": "Fantascienza, un genere (femminile)",
+            "author": "Laura Coci",
+            "original_title": "",
+            "italian_publish_year": "2023",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29558/fantascienza-un-genere-femminile"
         }
     },
     "author_books": {
@@ -7196,6 +7204,9 @@
         ],
         "Larry Niven, Jerry Pournelle": [
             3909
+        ],
+        "Laura Coci": [
+            29558
         ],
         "Laura Iuorio": [
             1592
