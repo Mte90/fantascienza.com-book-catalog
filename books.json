@@ -6151,6 +6151,14 @@
             "italian_publish_year": "2023",
             "isbn": "",
             "link": "https://www.fantascienza.com/29558/fantascienza-un-genere-femminile"
+        },
+        "29642": {
+            "title": "Il chirurgo",
+            "author": "Carlos P\u00e9rez Casas",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/29642/il-chirurgo"
         }
     },
     "author_books": {
@@ -6433,6 +6441,9 @@
         ],
         "Carlos Eduardo Feiling": [
             1498
+        ],
+        "Carlos P\u00e9rez Casas": [
+            29642
         ],
         "Carlos Trillo, Enrique Breccia": [
             15424
