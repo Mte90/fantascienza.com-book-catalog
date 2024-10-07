@@ -6159,6 +6159,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/29642/il-chirurgo"
+        },
+        "30232": {
+            "title": "Semuren",
+            "author": "Francesco Vietti",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30232/semuren"
         }
     },
     "author_books": {
@@ -6742,6 +6750,9 @@
         ],
         "Francesco Verso, Fabio Fernandes": [
             26195
+        ],
+        "Francesco Vietti": [
+            30232
         ],
         "Franco Clun, Franco Forte": [
             5462
