@@ -6167,6 +6167,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/30232/semuren"
+        },
+        "30359": {
+            "title": "Ursula K. Le Guin e le sovversioni del genere ",
+            "author": "Giuliana Misserville",
+            "original_title": "",
+            "italian_publish_year": "2024",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30359/ursula-k-le-guin-e-le-sovversioni-del-genere"
         }
     },
     "author_books": {
@@ -6879,6 +6887,9 @@
         ],
         "Giuliana Conforto": [
             2421
+        ],
+        "Giuliana Misserville": [
+            30359
         ],
         "Giuliano Fiocco": [
             1451
