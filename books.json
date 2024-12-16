@@ -6175,6 +6175,14 @@
             "italian_publish_year": "2024",
             "isbn": "",
             "link": "https://www.fantascienza.com/30359/ursula-k-le-guin-e-le-sovversioni-del-genere"
+        },
+        "30426": {
+            "title": "Il Protocollo Scilla",
+            "author": "Fulvio Gatti",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30426/il-protocollo-scilla"
         }
     },
     "author_books": {
@@ -6816,6 +6824,9 @@
         ],
         "Fritz Leiber": [
             11340
+        ],
+        "Fulvio Gatti": [
+            30426
         ],
         "Gene Brewer": [
             2356
