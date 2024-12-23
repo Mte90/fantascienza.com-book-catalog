@@ -6183,6 +6183,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/30426/il-protocollo-scilla"
+        },
+        "30443": {
+            "title": "I giochi del Capricorno",
+            "author": "Robert Silverberg",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30443/i-giochi-del-capricorno"
         }
     },
     "author_books": {
@@ -7675,7 +7683,8 @@
         "Robert Silverberg": [
             14585,
             19608,
-            19666
+            19666,
+            30443
         ],
         "Roberto Bola\u00f1o": [
             23458
