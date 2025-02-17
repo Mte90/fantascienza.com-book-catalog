@@ -6191,6 +6191,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/30443/i-giochi-del-capricorno"
+        },
+        "30561": {
+            "title": "Le dodici ore di Vic",
+            "author": "Francesca Cavallero",
+            "original_title": "",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30561/le-dodici-ore-di-vic"
         }
     },
     "author_books": {
@@ -6756,6 +6764,9 @@
         ],
         "Federico Carmosino": [
             25621
+        ],
+        "Francesca Cavallero": [
+            30561
         ],
         "Francesca Rispoli": [
             1648
