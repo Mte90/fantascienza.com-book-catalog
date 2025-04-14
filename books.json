@@ -6199,6 +6199,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/30561/le-dodici-ore-di-vic"
+        },
+        "30716": {
+            "title": "Il computer impossibile",
+            "author": "Giuliano Benenti, Giulio Casati, Simone Montagero",
+            "original_title": "Giuliano Benenti",
+            "italian_publish_year": "",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30716/il-computer-impossibile"
         }
     },
     "author_books": {
@@ -6920,6 +6928,9 @@
         ],
         "Giuliana Misserville": [
             30359
+        ],
+        "Giuliano Benenti, Giulio Casati, Simone Montagero": [
+            30716
         ],
         "Giuliano Fiocco": [
             1451
