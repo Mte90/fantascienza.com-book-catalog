@@ -6207,6 +6207,14 @@
             "italian_publish_year": "",
             "isbn": "",
             "link": "https://www.fantascienza.com/30716/il-computer-impossibile"
+        },
+        "30770": {
+            "title": "L'ombra della stella cometa",
+            "author": "Maurizio Cometto",
+            "original_title": "",
+            "italian_publish_year": "2025",
+            "isbn": "",
+            "link": "https://www.fantascienza.com/30770/l-ombra-della-stella-cometa"
         }
     },
     "author_books": {
@@ -7428,7 +7436,8 @@
             13300
         ],
         "Maurizio Cometto": [
-            22336
+            22336,
+            30770
         ],
         "Maurizio Manzieri": [
             14256
